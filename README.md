@@ -93,7 +93,7 @@ This enables robust assessment of model behavior under real-world conditions.
 
 ```bash
 git clone https://github.com/sam-sonite/OCR-NER_Langchain.git
-cd ocr_funsd_pipeline
+cd OCR-NER_Langchain
 
 pip install -r requirements.txt
 python main.py
