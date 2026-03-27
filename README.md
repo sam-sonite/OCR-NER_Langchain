@@ -40,3 +40,60 @@ The extracted text is passed to a **layout-aware transformer model**:
 # OCR-NER_Langchain<img width="1024" height="1536" alt="ChatGPT Image Mar 27, 2026, 06_00_15 PM" src="https://github.com/user-attachments/assets/5333285e-b3e2-4175-b6c8-428414eb0a96" />
 ---
 
+---
+
+## 📊 Evaluation Metrics
+
+The pipeline provides **comprehensive evaluation across multiple dimensions**:
+
+### OCR Metrics (Baseline)
+- CER (Character Error Rate)
+- WER (Word Error Rate)
+- Word Accuracy
+- Layout IoU
+
+### NER Metrics
+- Precision / Recall / F1 (labeled & unlabeled)
+- Span Accuracy
+- Label Consistency
+- Boundary Error Analysis
+- Entity Confusion Analysis
+
+### System-Level Metrics
+- Automation Success Rate
+- Document Processing Accuracy
+
+---
+
+## ⚠️ Important Note on OCR
+
+This pipeline uses **simulated OCR**, meaning:
+
+- No actual OCR model is used
+- Text is taken directly from dataset annotations
+- OCR scores (CER/WER = 0) represent a **perfect upper bound**
+
+👉 The primary focus is **NER and downstream evaluation**, not OCR performance.
+
+---
+
+## 🧪 Evaluation Modes
+
+The pipeline supports multiple testing conditions:
+
+- **Clean** → Ideal inputs  
+- **Noisy** → Simulated OCR/text noise  
+- **Adversarial** → Perturbed inputs  
+
+This enables robust assessment of model behavior under real-world conditions.
+
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone (https://github.com/sam-sonite/OCR-NER_Langchain.git)
+cd ocr_funsd_pipeline
+
+pip install -r requirements.txt
+python main.py
