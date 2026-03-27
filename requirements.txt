@@ -1,0 +1,8 @@
+langchain
+transformers
+torch
+datasets
+pillow
+numpy
+scikit-learn
+gliner

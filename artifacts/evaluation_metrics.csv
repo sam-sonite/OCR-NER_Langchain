@@ -1,0 +1,4 @@
+sample_index,sample_id,ocr_cer,ocr_wer,ocr_exact_match,ner_labeled_precision,ner_labeled_recall,ner_labeled_f1,ner_unlabeled_precision,ner_unlabeled_recall,ner_unlabeled_f1
+1,0,0.9989539748953975,0.993103448275862,False,0.0,0.0,0.0,0.0,0.0,0.0
+2,1,1.0,1.0,False,0.0,0.0,0.0,0.0,0.0,0.0
+3,2,0.9971098265895953,1.0,False,0.0,0.0,0.0,0.0,0.0,0.0

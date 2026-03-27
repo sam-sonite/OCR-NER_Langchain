@@ -1,0 +1,2201 @@
+{
+  "train_ner_results": [
+    {
+      "sample_id": "0",
+      "split": "train",
+      "latency_ms": 835.0194000013289,
+      "metrics": {
+        "span_accuracy": 0.9785714285714285,
+        "label_consistency": 0.7591240875912408,
+        "labeled": {
+          "precision": 0.7428571428571429,
+          "recall": 0.7428571428571429,
+          "f1": 0.7428571428571429,
+          "true_positives": 104,
+          "predicted": 140,
+          "ground_truth": 140
+        },
+        "unlabeled": {
+          "precision": 0.9785714285714285,
+          "recall": 0.9785714285714285,
+          "f1": 0.9785714285714285,
+          "true_positives": 137,
+          "predicted": 140,
+          "ground_truth": 140
+        },
+        "boundary_analysis": {
+          "boundary_errors": 3,
+          "missed_entities": 17,
+          "spurious_entities": 0,
+          "label_confusion": {
+            "question->answer": 1
+          }
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": ": Suggestion: Date: Licensee Yes No 597005708 R&D QUALITY IMPROVEMENT SUGGESTION/ SOLUTION FORM Name / Phone Ext. : M. Hamann P. Harper, P. Martinez 9/ 3/ 92 R&D Group: J. S. Wigand Supervisor / Manager Discontinue coal retention analyses on licensee submitted product samples (Note : Coal Retention testing is not performed by most licensees. Other B&W physical measurements as ends stability and inspection for soft spots in ciparettes are thought to be sufficient measures to assure cigarette physical integrity. The proposed action will increase laboratory productivity . ) Suggested Solutions (s) : Delete coal retention from the list of standard analyses performed on licensee submitted product samples. Special requests for coal retention testing could still be submitted on an exception basis. Have you contacted your Manager/ Supervisor? Manager Comments: Manager, please contact suggester",
+          "label": "answer",
+          "word_start": 1,
+          "word_end": 135
+        },
+        {
+          "text": "forward comments",
+          "label": "answer",
+          "word_start": 136,
+          "word_end": 138
+        },
+        {
+          "text": "Quality Council. qip .",
+          "label": "answer",
+          "word_start": 140,
+          "word_end": 144
+        }
+      ],
+      "ocr_text": "R&D : Suggestion: Date: Licensee Yes No 597005708 R&D QUALITY IMPROVEMENT SUGGESTION/ SOLUTION FORM Name / Phone Ext. : M. Hamann P. Harper, P. Martinez 9/ 3/ 92 R&D Group: J. S. Wigand Supervisor / Manager Discontinue coal retention analyses on licensee submitted product samples (Note : Coal Retention testing is not performed by most licensees. Other B&W physical measurements as ends stability and inspection for soft spots in ciparettes are thought to be sufficient measures to assure cigarette physical integrity. The proposed action will increase laboratory productivity . ) Suggested Solutions (s) : Delete coal retention from the list of standard analyses performed on licensee submitted product samples. Special requests for coal retention testing could still be submitted on an exception basis. Have you contacted your Manager/ Supervisor? Manager Comments: Manager, please contact suggester and forward comments to the Quality Council. qip . wp"
+    },
+    {
+      "sample_id": "1",
+      "split": "train",
+      "latency_ms": 772.290000000794,
+      "metrics": {
+        "span_accuracy": 1.0,
+        "label_consistency": 0.42727272727272725,
+        "labeled": {
+          "precision": 0.4051724137931034,
+          "recall": 0.42727272727272725,
+          "f1": 0.415929203539823,
+          "true_positives": 94,
+          "predicted": 232,
+          "ground_truth": 220
+        },
+        "unlabeled": {
+          "precision": 0.9482758620689655,
+          "recall": 1.0,
+          "f1": 0.9734513274336283,
+          "true_positives": 220,
+          "predicted": 232,
+          "ground_truth": 220
+        },
+        "boundary_analysis": {
+          "boundary_errors": 1,
+          "missed_entities": 94,
+          "spurious_entities": 0,
+          "label_confusion": {
+            "question->answer": 1
+          }
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "Brand: Style: PHOENIX Company: Country: Macket: CYPRUS NICOSIA Weights Adhesive: Supplier(s) Color Porosity substance Ecusta E.30639 None (coresta) Type Overall skip Dimension Positioning Swift Other N/A x Date: Date: 620419245 Date: Replaces: 05045 New Page 1 of 10 RESTRICTED BROWN & WILLIAMSON INTERNATIONAL TOBACCO PRODUCT SPECIFICATION HLB- KS B. A. T. CYPRUS Place of Manufacture: Licensee Ref. NO.: CIGARETTE MAKING Physical Characteristics Overall Cigarette Length Tobacco Rod Length Filter Plug Length Filter Plug Pressure Drop (unencap.) Filter Plug Pressure Drop encap. Cigarette Circumference Total Pressure Drop (unencap.) Total Pressure Drop (encap.) Tipping Length Print Position (from filter end) Moisture content (ex-catcher) Filter ventilation Rate 84 mm 64 mm 20 mm 56 mm 56 mm 24.75 mm 90 mm 110 mm 25 mm 27 mm 13.5 % Nil % Total Cigt. Wt. 974 mg 749 mg 245 mg/cc Net Tob. Rod Density Net Net Tobacco Tipping and Tipping Application Tipping Paper: Supplier Code No(s). Imitation Cork Perforation Type and No. of lines Print Description Brown on yellow Bobbin Width Robbin Length 36 gm/ m2 50 mm mm 2700 m (Indicate N/A If Not Applicable) Supplier (s) Supplier Code No (s) T.K. 9220 Printed Imitation cork Application Pattern: Glue Pree Area mm from mouth end mm x mm Prepared by: M. HAMERTON / enm May 1, 1985 Approved by: Director of Technical Operations, Brown & Williamson International Tobacco May 1, 1985 May 1, 1985",
+          "label": "answer",
+          "word_start": 0,
+          "word_end": 232
+        }
+      ],
+      "ocr_text": "Brand: Style: PHOENIX Company: Country: Macket: CYPRUS NICOSIA Weights Adhesive: Supplier(s) Color Porosity substance Ecusta E.30639 None (coresta) Type Overall skip Dimension Positioning Swift Other N/A x Date: Date: 620419245 Date: Replaces: 05045 New Page 1 of 10 RESTRICTED BROWN & WILLIAMSON INTERNATIONAL TOBACCO PRODUCT SPECIFICATION HLB- KS B. A. T. CYPRUS Place of Manufacture: Licensee Ref. NO.: CIGARETTE MAKING Physical Characteristics Overall Cigarette Length Tobacco Rod Length Filter Plug Length Filter Plug Pressure Drop (unencap.) Filter Plug Pressure Drop encap. Cigarette Circumference Total Pressure Drop (unencap.) Total Pressure Drop (encap.) Tipping Length Print Position (from filter end) Moisture content (ex-catcher) Filter ventilation Rate 84 mm 64 mm 20 mm 56 mm 56 mm 24.75 mm 90 mm 110 mm 25 mm 27 mm 13.5 % Nil % Total Cigt. Wt. 974 mg 749 mg 245 mg/cc Net Tob. Rod Density Net Net Tobacco Tipping and Tipping Application Tipping Paper: Supplier Code No(s). Imitation Cork Perforation Type and No. of lines Print Description Brown on yellow Bobbin Width Robbin Length 36 gm/ m2 50 mm mm 2700 m (Indicate N/A If Not Applicable) Supplier (s) Supplier Code No (s) T.K. 9220 Printed Imitation cork Application Pattern: Glue Pree Area mm from mouth end mm x mm Prepared by: M. HAMERTON / enm May 1, 1985 Approved by: Director of Technical Operations, Brown & Williamson International Tobacco May 1, 1985 May 1, 1985"
+    },
+    {
+      "sample_id": "2",
+      "split": "train",
+      "latency_ms": 749.2314999999508,
+      "metrics": {
+        "span_accuracy": 0.0,
+        "label_consistency": 0.0,
+        "labeled": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "predicted": 0,
+          "ground_truth": 125
+        },
+        "unlabeled": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "predicted": 0,
+          "ground_truth": 125
+        },
+        "boundary_analysis": {
+          "boundary_errors": 0,
+          "missed_entities": 27,
+          "spurious_entities": 0,
+          "label_confusion": {}
+        }
+      },
+      "predicted_entities": [],
+      "ocr_text": "DATE: INITIATED BY: COMPLETION COUNTRY: PRODUCT: BELGIUM BY: DATE: NOTES: 620429480 RECEIVED SERVICE REQUEST FROM R & D BY INTERNATIONAL LICENSEE OPERATIONS REQUEST NO.: 25- 84 March 27, 1984 P. H. HARPER PHH TARGET DATE: April 13, 1984 LUCKY STRIKE Filter and VICEROY NATURE OF WORK: Advise if locally obtained Yucatan Honey (sample enclosed) is an acceptable substitute for HALWAY. R & D COMMENTS: Target the P A 29Mar 84 a) Nature of work should be specified in exact terms. b) R & D should advise if completion date cannot be met. c) Two copies of this form to be sent to R & D by initiator and R & D is to return to T. O. one completed copy. MH/ enm 0036/ (r) # 2894M APR 2 1984 P. H. H."
+    },
+    {
+      "sample_id": "3",
+      "split": "train",
+      "latency_ms": 789.2660000015894,
+      "metrics": {
+        "span_accuracy": 0.7854251012145749,
+        "label_consistency": 0.7268041237113402,
+        "labeled": {
+          "precision": 0.5826446280991735,
+          "recall": 0.5708502024291497,
+          "f1": 0.5766871165644171,
+          "true_positives": 141,
+          "predicted": 242,
+          "ground_truth": 247
+        },
+        "unlabeled": {
+          "precision": 0.8016528925619835,
+          "recall": 0.7854251012145749,
+          "f1": 0.7934560327198364,
+          "true_positives": 194,
+          "predicted": 242,
+          "ground_truth": 247
+        },
+        "boundary_analysis": {
+          "boundary_errors": 1,
+          "missed_entities": 156,
+          "spurious_entities": 0,
+          "label_confusion": {
+            "question->answer": 1
+          }
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "SUBJECT: SAMPLE: CIGARETTES: TAR 9.1 NIC .88 MOIST 14.0 MENT .841 PREFERENCE: Bright 39 34 43 35 42 8 9 11 6 8 200 100 100 100 100 ATTRIBUTES: 53+++ 60+++ 46 56+++ 50 (n=) Total Male Female 35+ KL Bright KL Bright KL Bright KL Bright KL Bright 4.51 4.45 4.09** 4.59 4.31*** 3.60** 3.64*** 3.39*** 3.12*** 3.56*** 4.00 3.42 3.73** 3.58*** 4.94 3.04 3.46*** 3.28*** 2.78 3.24 3.96 4.02 3.69*** 3.02 2.78 3.21 3.95 3.99 3.44 2.97* 3.33** 3.70*** 3.47 3.43 4.85 4.71 3.41 5.02 3.06 2.78 3.26 3.96 4.35** 3.61* 3.63*** 3.45*** 3.17*** 3.52*** 4.07** 4.74 3.38 5.31 2.99 2.74 3.07 3.92 4.27 3.58 3.65*** 2.34** 3.08** 3.60* 3.94 4.45 3.46 4.61 2.08 2.82 3.39 3.99 620915734 +/-/* ++/--/** +++/---/*** Attribute scores reflectia a comparison of the test product to the smoker's most often brand NOTE TOP- LINES MENTHOL PRODUCT TEST C273- 82- 7 1982 102KL 1 of 4 PDC # PROJECT # PAGE # KOOL Lights KS vs. Bright KS Product Monitor 408 Menthol Lights / 105 Menthol Ultra, 111 Non- Menthol Lights / 92 Non- Menthol Ultras) September 13, 1982 FIELD DATE: # 839 / 869 # 369 / 839 KOOL Lights KS- white tip- ping masked .4 4 13. 5 .55 5. 5 masked / a certain proportion of the menthol result is pep- perrront oil; R&D is unable to determine the percentage. Bright KS white tipping- Total Menthol Smokers Total (205) Male (99) Female (106)",
+          "label": "answer",
+          "word_start": 0,
+          "word_end": 242
+        }
+      ],
+      "ocr_text": "SUBJECT: SAMPLE: CIGARETTES: TAR 9.1 NIC .88 MOIST 14.0 MENT .841 PREFERENCE: Bright 39 34 43 35 42 8 9 11 6 8 200 100 100 100 100 ATTRIBUTES: 53+++ 60+++ 46 56+++ 50 (n=) Total Male Female 35+ KL Bright KL Bright KL Bright KL Bright KL Bright 4.51 4.45 4.09** 4.59 4.31*** 3.60** 3.64*** 3.39*** 3.12*** 3.56*** 4.00 3.42 3.73** 3.58*** 4.94 3.04 3.46*** 3.28*** 2.78 3.24 3.96 4.02 3.69*** 3.02 2.78 3.21 3.95 3.99 3.44 2.97* 3.33** 3.70*** 3.47 3.43 4.85 4.71 3.41 5.02 3.06 2.78 3.26 3.96 4.35** 3.61* 3.63*** 3.45*** 3.17*** 3.52*** 4.07** 4.74 3.38 5.31 2.99 2.74 3.07 3.92 4.27 3.58 3.65*** 2.34** 3.08** 3.60* 3.94 4.45 3.46 4.61 2.08 2.82 3.39 3.99 620915734 +/-/* ++/--/** +++/---/*** Attribute scores reflectia a comparison of the test product to the smoker's most often brand NOTE TOP- LINES MENTHOL PRODUCT TEST C273- 82- 7 1982 102KL 1 of 4 PDC # PROJECT # PAGE # KOOL Lights KS vs. Bright KS Product Monitor 408 Menthol Lights / 105 Menthol Ultra, 111 Non- Menthol Lights / 92 Non- Menthol Ultras) September 13, 1982 FIELD DATE: # 839 / 869 # 369 / 839 KOOL Lights KS- white tip- ping masked .4 4 13. 5 .55 5. 5 masked / a certain proportion of the menthol result is pep- perrront oil; R&D is unable to determine the percentage. Bright KS white tipping- Total Menthol Smokers Total (205) Male (99) Female (106) 21- 34 (96) 35+ 109 KOOL Lights No Preference 21- 34 STRENGTH (7= Stronger) SMOOTHNESS (7= 5moother AMT MENTHOL (7= More) MENTHOL TASTE (7= Better SATISFYING (7= More APTERTASTE (7= Pleasant) EASE OF DRAW 17 Easier Directional Difference: 66 79% confidence Level 80- 94% confidence Level 95+% confidence Level Marginal Difference: Significant Difference:"
+    },
+    {
+      "sample_id": "4",
+      "split": "train",
+      "latency_ms": 737.5468999998702,
+      "metrics": {
+        "span_accuracy": 1.0,
+        "label_consistency": 0.8313253012048193,
+        "labeled": {
+          "precision": 0.7666666666666667,
+          "recall": 0.8313253012048193,
+          "f1": 0.7976878612716763,
+          "true_positives": 69,
+          "predicted": 90,
+          "ground_truth": 83
+        },
+        "unlabeled": {
+          "precision": 0.9222222222222223,
+          "recall": 1.0,
+          "f1": 0.9595375722543353,
+          "true_positives": 83,
+          "predicted": 90,
+          "ground_truth": 83
+        },
+        "boundary_analysis": {
+          "boundary_errors": 1,
+          "missed_entities": 27,
+          "spurious_entities": 0,
+          "label_confusion": {
+            "header->answer": 1
+          }
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "B&W WCC 621800455 Reconstituted Tobacco Leaf Substitutions Export Formulas Revision Date: Allowable Grade Substitutions for Export CPCL Standard Grade Mark Allowable Substitutions PCFS Flue cured fines PCBS Burley fines MC- 4 Manufacturing fines MC -6 Stem Meal MC -7 Winnowers RXF Fine flue cured stem RBF Fine Burely stem RPCFS or RPCFS-O RPCBS OT RPCBS- O MC -4 -S MC -4 -PH MC -4 -RC MC -4 -W MC -1 C Stem RRXF or RRXF -O RRXM -B RRXM -T RRBF or RRBF -O RRB -B RRB -L RRB -T",
+          "label": "answer",
+          "word_start": 0,
+          "word_end": 90
+        }
+      ],
+      "ocr_text": "B&W WCC 621800455 Reconstituted Tobacco Leaf Substitutions Export Formulas Revision Date: Allowable Grade Substitutions for Export CPCL Standard Grade Mark Allowable Substitutions PCFS Flue cured fines PCBS Burley fines MC- 4 Manufacturing fines MC -6 Stem Meal MC -7 Winnowers RXF Fine flue cured stem RBF Fine Burely stem RPCFS or RPCFS-O RPCBS OT RPCBS- O MC -4 -S MC -4 -PH MC -4 -RC MC -4 -W MC -1 C Stem RRXF or RRXF -O RRXM -B RRXM -T RRBF or RRBF -O RRB -B RRB -L RRB -T"
+    },
+    {
+      "sample_id": "5",
+      "split": "train",
+      "latency_ms": 708.6560999996436,
+      "metrics": {
+        "span_accuracy": 0.0,
+        "label_consistency": 0.0,
+        "labeled": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "predicted": 0,
+          "ground_truth": 176
+        },
+        "unlabeled": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "predicted": 0,
+          "ground_truth": 176
+        },
+        "boundary_analysis": {
+          "boundary_errors": 0,
+          "missed_entities": 36,
+          "spurious_entities": 0,
+          "label_confusion": {}
+        }
+      },
+      "predicted_entities": [],
+      "ocr_text": "DATE: DEPARTMENT: Type EQPR B&W QUALITY Implement: Date 632120763 QUALITY IMPROVEMENT SUGGESTION OUR MISSION IS SUPERIOR CONSUMER SATISFACTION Highest Quality. Teamwork, Do Right Things Right The First Time RESEARCH & DEVELOPMENT Quality Coord Only June 21, 1993 R&D Library Carol S. Lincoln 407- 64- 3484 SUBMITTED BY: SUBMITTER'S SS#: Date Rec'd QIP Log #1 Status (1993) Keywords (1993) 6/ 21/ 93 93- 0301 SUGGESTION: (Describe Current Situation and Idea) The current system of managing records is too complex. The trend seems to be increasingly specific, when we should be getting more general. Right now, people must work to understand the system. We must spend too much time adninistering the system, labeling and cleaning our files. Complying is a real burden, both for the individual and for the records coordinators. Describe Possible Solutions And Benefits 1. Drop the category specifications altogether. 2. Use moregeneral categories. hote: I have passed this to Scott Appleton for the task to use in streamlining the records management force program. PROFIT IMPROVEMENT: (If Applicable) RESPOND HERE \u2610 Yes \u2610 No \u2610 Pending Approval Signature/ Date Responder/ Date Sign & Print Names) (See Instructions On Back)"
+    },
+    {
+      "sample_id": "6",
+      "split": "train",
+      "latency_ms": 706.8504999988363,
+      "metrics": {
+        "span_accuracy": 0.0,
+        "label_consistency": 0.0,
+        "labeled": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "predicted": 0,
+          "ground_truth": 69
+        },
+        "unlabeled": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "predicted": 0,
+          "ground_truth": 69
+        },
+        "boundary_analysis": {
+          "boundary_errors": 0,
+          "missed_entities": 32,
+          "spurious_entities": 0,
+          "label_confusion": {}
+        }
+      },
+      "predicted_entities": [],
+      "ocr_text": "FAX: DATE: FROM: CHARGEBACK: RECIPIENT COMPANY FAX No. COMMENTS No: Name: Yes Confirmation: 2074956978 WINSTON & STRAWN Fax Cover Sheet MAMI TRIAL SITE, 2000 FIRST UNION FINANCIAL CENTER, 200 SOUTH BISCAYNE BOULEVARD MIAMI, FLORIDA 33131 (305) 400 6 06 200 PARK AVENUE NEWYORK NY 10166 4193 212 294-6700 400 L. STREET N WASHWINGTON DC 20005 3502 202 371 5700 35 WEST WACKER CHICAGO. IL 30601 312- 588 5800 21 AVENUE VICTOR HUGO 75 PARIS, FRANCE 33- 53 64 62 82 Fax Number: 305 400- 6107 Kevin Narko 10/ 13/ 99 4162/ 158 Please Deliver as soon Possible To: John Mulderig Gregory Little Philip Morris Philip Morris 917 -663 -5796 917- 663 5979 917- 663 3056 PHONE No. Total number of pages including this page: IF YOU DO NOT RECEIVE ALL THE PAGES, PLEASE CALL OUR FAX OPERATOR AS SOON AS POSSIBLE THANK YOU. 312- 558- 5948 The information contained in this facsimile message is attorncy privileged and confidential information intended only for the use of the individual or entity named above. If the reader of this message is not the intended recipient, or the employee or agent responsible to deliver it to the intended recipient, you are hereby notified that any dissemination, distribution or copying this communication strictly prohibited. If you have received this communication in error, please immediately notify us by telephone, and return the original message to us at the above address via the U. S. Postal Service. Thank you. Operator Initials:"
+    },
+    {
+      "sample_id": "7",
+      "split": "train",
+      "latency_ms": 720.8706000001257,
+      "metrics": {
+        "span_accuracy": 1.0,
+        "label_consistency": 0.6056338028169014,
+        "labeled": {
+          "precision": 0.593103448275862,
+          "recall": 0.6056338028169014,
+          "f1": 0.5993031358885017,
+          "true_positives": 86,
+          "predicted": 145,
+          "ground_truth": 142
+        },
+        "unlabeled": {
+          "precision": 0.9793103448275862,
+          "recall": 1.0,
+          "f1": 0.9895470383275261,
+          "true_positives": 142,
+          "predicted": 145,
+          "ground_truth": 142
+        },
+        "boundary_analysis": {
+          "boundary_errors": 1,
+          "missed_entities": 68,
+          "spurious_entities": 0,
+          "label_confusion": {
+            "question->answer": 1
+          }
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "Brand Title Size Magazine Location SCORE BASE SCORE BASE COMMENTS PM6 OVERALL SEX: AGE: Male Female 214 TIME 1.0 (.97) 31 (167) (83) (84) 31 31 (51) (46) 2.0 0.0 (81) (86) 33 29 (42) (55) 2.4 0.0 4/19/74 770205964 33 (42) (125) 30 MAGAZINE SCORES AUDIENCE STUDIES SALEM (RJR) Project # Total Sample 74- 80 \"HEAD IN WATER\" Code # FULL PAGE Field Date WEEK OF MARCH 25, 1974 CHICAGO, DALLAS/ FORT WORTH, INDIANAPOLIS, LOS ANGELES MEMPHIS, PHILADELPHIA, PITTSBURGH Sample Description MALE AND FEMALE MENTHOL SMOKERS PROVED RECALL Tested among a half sample of smokers. Sub- group scores subject to wide variation because of small sample size and should be averaged across several ads for meaningful infor- mation. Under 25 25- 34 35- 44 45 & Over Under 35 35 & Over BRAND SMOKED: Test Brand Smokers All Other Smokers Date Sent PI- 7653",
+          "label": "answer",
+          "word_start": 0,
+          "word_end": 145
+        }
+      ],
+      "ocr_text": "Brand Title Size Magazine Location SCORE BASE SCORE BASE COMMENTS PM6 OVERALL SEX: AGE: Male Female 214 TIME 1.0 (.97) 31 (167) (83) (84) 31 31 (51) (46) 2.0 0.0 (81) (86) 33 29 (42) (55) 2.4 0.0 4/19/74 770205964 33 (42) (125) 30 MAGAZINE SCORES AUDIENCE STUDIES SALEM (RJR) Project # Total Sample 74- 80 \"HEAD IN WATER\" Code # FULL PAGE Field Date WEEK OF MARCH 25, 1974 CHICAGO, DALLAS/ FORT WORTH, INDIANAPOLIS, LOS ANGELES MEMPHIS, PHILADELPHIA, PITTSBURGH Sample Description MALE AND FEMALE MENTHOL SMOKERS PROVED RECALL Tested among a half sample of smokers. Sub- group scores subject to wide variation because of small sample size and should be averaged across several ads for meaningful infor- mation. Under 25 25- 34 35- 44 45 & Over Under 35 35 & Over BRAND SMOKED: Test Brand Smokers All Other Smokers Date Sent PI- 7653"
+    },
+    {
+      "sample_id": "8",
+      "split": "train",
+      "latency_ms": 733.5079999993468,
+      "metrics": {
+        "span_accuracy": 1.0,
+        "label_consistency": 0.6635514018691588,
+        "labeled": {
+          "precision": 0.5338345864661654,
+          "recall": 0.6635514018691588,
+          "f1": 0.5916666666666667,
+          "true_positives": 71,
+          "predicted": 133,
+          "ground_truth": 107
+        },
+        "unlabeled": {
+          "precision": 0.8045112781954887,
+          "recall": 1.0,
+          "f1": 0.8916666666666667,
+          "true_positives": 107,
+          "predicted": 133,
+          "ground_truth": 107
+        },
+        "boundary_analysis": {
+          "boundary_errors": 1,
+          "missed_entities": 43,
+          "spurious_entities": 0,
+          "label_confusion": {
+            "question->answer": 1
+          }
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "SUBJECT: SAMPLE: CIGARETTES PROJECT REFERENCE ATTRIBUTES VICEROY Competitive 54% 46%46% 47% 53% VICEROY Competitive -13 -4 -7 +7* +14 +26* -15* +22 +1 +5 -5 +21 STRENGTH HARSHNESS AFTERTASTE TOP- LINES NON- MENTHOL PRODUCT TEST # 19 4- 26A 25% Replacement of Propylene Glycol With SORBITOL 250 VICEROY/ 125 Marlboro/ 125 Winston #627/ 647 - #647/ #627 - Current VICEROY B4 Current VICEROY 84 except with 25% of the propylene glycol replaced with SORBITOL. NOTICE IF THE FILM IMAGE IS LESS CLEAR THAN THIS NOTICE. IT IS DUE TO THE QUALITY OF THE DOCUMENT BEING FILMED 77905 6433 *Statistically Significant (#627/ 647 (#647/ 627) Current VICEROY 84 25% PG with SORBITOL Current VICEROY 84 (#647/ 647 25% PG w/ SORBITOL (#647/ 627) Current VICEROY 84 (#627/ 647) 25% PG w/ SORBITOL #647/ 627",
+          "label": "answer",
+          "word_start": 0,
+          "word_end": 133
+        }
+      ],
+      "ocr_text": "SUBJECT: SAMPLE: CIGARETTES PROJECT REFERENCE ATTRIBUTES VICEROY Competitive 54% 46%46% 47% 53% VICEROY Competitive -13 -4 -7 +7* +14 +26* -15* +22 +1 +5 -5 +21 STRENGTH HARSHNESS AFTERTASTE TOP- LINES NON- MENTHOL PRODUCT TEST # 19 4- 26A 25% Replacement of Propylene Glycol With SORBITOL 250 VICEROY/ 125 Marlboro/ 125 Winston #627/ 647 - #647/ #627 - Current VICEROY B4 Current VICEROY 84 except with 25% of the propylene glycol replaced with SORBITOL. NOTICE IF THE FILM IMAGE IS LESS CLEAR THAN THIS NOTICE. IT IS DUE TO THE QUALITY OF THE DOCUMENT BEING FILMED 77905 6433 *Statistically Significant (#627/ 647 (#647/ 627) Current VICEROY 84 25% PG with SORBITOL Current VICEROY 84 (#647/ 647 25% PG w/ SORBITOL (#647/ 627) Current VICEROY 84 (#627/ 647) 25% PG w/ SORBITOL #647/ 627"
+    },
+    {
+      "sample_id": "9",
+      "split": "train",
+      "latency_ms": 702.1445000009408,
+      "metrics": {
+        "span_accuracy": 1.0,
+        "label_consistency": 0.6259541984732825,
+        "labeled": {
+          "precision": 0.5815602836879432,
+          "recall": 0.6259541984732825,
+          "f1": 0.6029411764705882,
+          "true_positives": 82,
+          "predicted": 141,
+          "ground_truth": 131
+        },
+        "unlabeled": {
+          "precision": 0.9290780141843972,
+          "recall": 1.0,
+          "f1": 0.963235294117647,
+          "true_positives": 131,
+          "predicted": 141,
+          "ground_truth": 131
+        },
+        "boundary_analysis": {
+          "boundary_errors": 1,
+          "missed_entities": 69,
+          "spurious_entities": 0,
+          "label_confusion": {
+            "question->answer": 1
+          }
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "Title OVERALL: SEX: AGE: BRAND SMOKER Male 465508326 Female 6 7 (17) (205) 3.1 4.2 (129) (95) 5 9 (117) (105) (63) (66) (46) (49) 3.2 3.0 4.4 4.0 1.9 5.0 (104) (120) 7 7 (101) (121) 3.4% (224) 7% (222) BELAIR 285 % % SCORE BASE SCORE BASE PM6 COMMENTS Brand NEWSPAPER SCORES AUDIENCE STUDIES \" KALEIDOSCOPE - - GONE WITH THE WIND \" * Project # Total Sample 72- 31 Code # Type of Ad Newspaper (Date) R/ BSS- 71- 19 PARADE, 1 Page, 4- Color PROVED RECALL *This was a combination ad with RALEIGH. Under 25 25- 34 35- 44 45 & Over Under 35 35 & Over Test Brand Smokers All Other Smokers Pittsburgh Pittsburgh PUTSBURGH PRESS (4 /23 /72 San Diego SAN DIEGO UNION (4 /23 /72 Dayton DAYTON NEWS (4 /23 /72) Birmingham BIRMINGHAM NEWS (4 /23 /72)\uf702",
+          "label": "answer",
+          "word_start": 0,
+          "word_end": 141
+        }
+      ],
+      "ocr_text": "Title OVERALL: SEX: AGE: BRAND SMOKER Male 465508326 Female 6 7 (17) (205) 3.1 4.2 (129) (95) 5 9 (117) (105) (63) (66) (46) (49) 3.2 3.0 4.4 4.0 1.9 5.0 (104) (120) 7 7 (101) (121) 3.4% (224) 7% (222) BELAIR 285 % % SCORE BASE SCORE BASE PM6 COMMENTS Brand NEWSPAPER SCORES AUDIENCE STUDIES \" KALEIDOSCOPE - - GONE WITH THE WIND \" * Project # Total Sample 72- 31 Code # Type of Ad Newspaper (Date) R/ BSS- 71- 19 PARADE, 1 Page, 4- Color PROVED RECALL *This was a combination ad with RALEIGH. Under 25 25- 34 35- 44 45 & Over Under 35 35 & Over Test Brand Smokers All Other Smokers Pittsburgh Pittsburgh PUTSBURGH PRESS (4 /23 /72 San Diego SAN DIEGO UNION (4 /23 /72 Dayton DAYTON NEWS (4 /23 /72) Birmingham BIRMINGHAM NEWS (4 /23 /72)\uf702"
+    }
+  ],
+  "clean_test_ner_results": [
+    {
+      "sample_id": "0",
+      "split": "test",
+      "latency_ms": 719.2424000004394,
+      "metrics": {
+        "span_accuracy": 0.0,
+        "label_consistency": 0.0,
+        "labeled": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "predicted": 0,
+          "ground_truth": 188
+        },
+        "unlabeled": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "predicted": 0,
+          "ground_truth": 188
+        },
+        "boundary_analysis": {
+          "boundary_errors": 0,
+          "missed_entities": 22,
+          "spurious_entities": 0,
+          "label_confusion": {}
+        }
+      },
+      "predicted_entities": [],
+      "ocr_text": "TO: DATE: 3 Fax: NOTE: 82092117 614 -466 -5087 Dec 10 '98 17 :46 P. 01 ATT. GEN. ADMIN. OFFICE Attorney General Betty D. Montgomery CONFIDENTIAL FACSIMILE TRANSMISSION COVER SHEET (614) 466- 5087 FAX NO. George Baroody (336) 335- 7392 FAX NUMBER: PHONE NUMBER: (336) 335- 7363 NUMBER OF PAGES INCLUDING COVER SHEET: June Flynn for Eric Brown/ (614) 466- 8980 SENDER /PHONE NUMBER: SPECIAL INSTRUCTIONS: IF YOU DO NOT RECEIVE ANY OF THE PAGES PROPERLY, PLEASE CONTACT SENDER AS SOON AS POSSIBLE THIS MESSAGE IS INTENDED ONLY FOR THE USE OF THE INDIVIDUAL OR ENTITY TO WHOM IT IS ADDRESSED AND MAY CONTAIN INFORMATION THAT IS PRIVILEGED. CONFIDENTIAL, AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE LAW. If the reader of this message is not the intended recipient of the employee or agent responsible for delivering the message to the intended recipient, you are hereby notified that any dissemination, distribution, copying, or conveying of this communication in any manner is strictly prohibited. If you have received this comunication in error, please notify us immediately by telephone and return the original message to us at the address below via the U. S. Postal Service. Thank you for your cooperation. State Office Tower / 30 East Broad Street/ Columbus, Ohio 43215 -3428 www ag state oh us An Equal Opportunity Employer Primed an 12 /10 /98"
+    },
+    {
+      "sample_id": "1",
+      "split": "test",
+      "latency_ms": 719.0797999992355,
+      "metrics": {
+        "span_accuracy": 1.0,
+        "label_consistency": 0.7083333333333334,
+        "labeled": {
+          "precision": 0.5089820359281437,
+          "recall": 0.7083333333333334,
+          "f1": 0.5923344947735192,
+          "true_positives": 85,
+          "predicted": 167,
+          "ground_truth": 120
+        },
+        "unlabeled": {
+          "precision": 0.718562874251497,
+          "recall": 1.0,
+          "f1": 0.8362369337979094,
+          "true_positives": 120,
+          "predicted": 167,
+          "ground_truth": 120
+        },
+        "boundary_analysis": {
+          "boundary_errors": 1,
+          "missed_entities": 52,
+          "spurious_entities": 0,
+          "label_confusion": {
+            "question->answer": 1
+          }
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "TO: FROM: x SUBJECT: DIVISION: DIVISION: DIVISION: DIVISION: REGION: DIVISION: DIVISION: DIVISION: 225 27 15 31 18 19 20 82200067 09/ 17/ 97 10: 55 603 841 1898 LORILLARD PTLD \u2611 001 K. A. Sparrow T. D. Blachly OLD GOLD MENTHOL LIGHTS & ULTRA LIGHTS 100'S PROGRESS REPORT AUG 4 SEP 15 MAY 12 JUN 23 (ONLY IF PARTIAL REGION CONTINUE WITH DIVISION (S) SCOPE) Portland # REPS: 6 Boise # REPS: 2. 5 Eugene # REPS: 5 Seattle South # REPS: 7 Seattle North # REPS: 4 Helena # REPS: 4 DIRECT ACCOUNTS AND CHAINS HEADQUARTERED WITHIN THE REGION (15 + STORES) STOCKING NO OLD GOLD MENTHOL LIGHTS OR ULTRA LIGHTS 100'S NAME OF ACCOUNT VOLUME NO. OF STORES NAME OF ACCOUNT VOLUME NO. OF STORES Texaco Seattle Texaco Portland Maid -O Clover Dari Mart Zip Trip Maverick Astro Gas 105 / 5 61 / 3 20 / 2 125 / 5 106 / 4 77 / 1 600 / 7 Page 1 of 3 Pages",
+          "label": "answer",
+          "word_start": 0,
+          "word_end": 167
+        }
+      ],
+      "ocr_text": "TO: FROM: x SUBJECT: DIVISION: DIVISION: DIVISION: DIVISION: REGION: DIVISION: DIVISION: DIVISION: 225 27 15 31 18 19 20 82200067 09/ 17/ 97 10: 55 603 841 1898 LORILLARD PTLD \u2611 001 K. A. Sparrow T. D. Blachly OLD GOLD MENTHOL LIGHTS & ULTRA LIGHTS 100'S PROGRESS REPORT AUG 4 SEP 15 MAY 12 JUN 23 (ONLY IF PARTIAL REGION CONTINUE WITH DIVISION (S) SCOPE) Portland # REPS: 6 Boise # REPS: 2. 5 Eugene # REPS: 5 Seattle South # REPS: 7 Seattle North # REPS: 4 Helena # REPS: 4 DIRECT ACCOUNTS AND CHAINS HEADQUARTERED WITHIN THE REGION (15 + STORES) STOCKING NO OLD GOLD MENTHOL LIGHTS OR ULTRA LIGHTS 100'S NAME OF ACCOUNT VOLUME NO. OF STORES NAME OF ACCOUNT VOLUME NO. OF STORES Texaco Seattle Texaco Portland Maid -O Clover Dari Mart Zip Trip Maverick Astro Gas 105 / 5 61 / 3 20 / 2 125 / 5 106 / 4 77 / 1 600 / 7 Page 1 of 3 Pages"
+    },
+    {
+      "sample_id": "2",
+      "split": "test",
+      "latency_ms": 722.2576000003755,
+      "metrics": {
+        "span_accuracy": 1.0,
+        "label_consistency": 0.7745098039215687,
+        "labeled": {
+          "precision": 0.7383177570093458,
+          "recall": 0.7745098039215687,
+          "f1": 0.7559808612440191,
+          "true_positives": 158,
+          "predicted": 214,
+          "ground_truth": 204
+        },
+        "unlabeled": {
+          "precision": 0.9532710280373832,
+          "recall": 1.0,
+          "f1": 0.9760765550239235,
+          "true_positives": 204,
+          "predicted": 214,
+          "ground_truth": 204
+        },
+        "boundary_analysis": {
+          "boundary_errors": 1,
+          "missed_entities": 32,
+          "spurious_entities": 0,
+          "label_confusion": {
+            "question->answer": 1
+          }
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "TO: FROM: DATE: MANUFACTURER: BRAND: Oct. Dec. Jan. Nov. X B&W 82250337 COMPETITIVE PRODUCT INTRODUCTION PROGRESS REPORT Sam Zolot Kool Waterfall All Packings TYPE OF PACKINGS: D. J. Landro 2- Dec- 97 REPORTING PERIODS: TEST MARKET GEOGRAPHY: Divisions 621 and 627 wisconsin PRICE POINT: FULLS $ P/ V $ (Indicate Distributor's Cost Per Carton) SALES FORCE INVOLVEMENT: They have crew- worked distribution, and it is reported that they may crew- work it again Sales force has been busy promoting old style backs to clean up inventory. All POS is being converted to \"B\" Kool. DISTRIBUTORS ACCEPTANCE INTRO TERMS INTRO DEALS INVOLVEMENT: All accounts have the new packaging. It was not a problem obtaining new distribution. All accounts appear to have 100% distribution of new packings. CHAINS ACCEPTANCE/ MERCHANDISING: This has not been a problem. New packaging is just following on the old \"packaging\". INDEPENDENTS ACCEPTANCE/ MERCHANDISING: Very well received. The packs are peing consolidated and promoted in select retail locations at 40 off $4 00 off cartons. ADVERTISING EFFECTIVENESS OF P. O. S.: The theme \"B\" Kool has replaced all previous POS. They have effectively replaced all old POS. New door signage, hour signs, poster mats, and clocks have the new design. \"B\" Kool also appears on billboards in llinois. PAGE 1 OF 2",
+          "label": "answer",
+          "word_start": 0,
+          "word_end": 214
+        }
+      ],
+      "ocr_text": "TO: FROM: DATE: MANUFACTURER: BRAND: Oct. Dec. Jan. Nov. X B&W 82250337 COMPETITIVE PRODUCT INTRODUCTION PROGRESS REPORT Sam Zolot Kool Waterfall All Packings TYPE OF PACKINGS: D. J. Landro 2- Dec- 97 REPORTING PERIODS: TEST MARKET GEOGRAPHY: Divisions 621 and 627 wisconsin PRICE POINT: FULLS $ P/ V $ (Indicate Distributor's Cost Per Carton) SALES FORCE INVOLVEMENT: They have crew- worked distribution, and it is reported that they may crew- work it again Sales force has been busy promoting old style backs to clean up inventory. All POS is being converted to \"B\" Kool. DISTRIBUTORS ACCEPTANCE INTRO TERMS INTRO DEALS INVOLVEMENT: All accounts have the new packaging. It was not a problem obtaining new distribution. All accounts appear to have 100% distribution of new packings. CHAINS ACCEPTANCE/ MERCHANDISING: This has not been a problem. New packaging is just following on the old \"packaging\". INDEPENDENTS ACCEPTANCE/ MERCHANDISING: Very well received. The packs are peing consolidated and promoted in select retail locations at 40 off $4 00 off cartons. ADVERTISING EFFECTIVENESS OF P. O. S.: The theme \"B\" Kool has replaced all previous POS. They have effectively replaced all old POS. New door signage, hour signs, poster mats, and clocks have the new design. \"B\" Kool also appears on billboards in llinois. PAGE 1 OF 2"
+    },
+    {
+      "sample_id": "3",
+      "split": "test",
+      "latency_ms": 728.2419000002847,
+      "metrics": {
+        "span_accuracy": 1.0,
+        "label_consistency": 0.654639175257732,
+        "labeled": {
+          "precision": 0.5720720720720721,
+          "recall": 0.654639175257732,
+          "f1": 0.6105769230769231,
+          "true_positives": 127,
+          "predicted": 222,
+          "ground_truth": 194
+        },
+        "unlabeled": {
+          "precision": 0.8738738738738738,
+          "recall": 1.0,
+          "f1": 0.9326923076923077,
+          "true_positives": 194,
+          "predicted": 222,
+          "ground_truth": 194
+        },
+        "boundary_analysis": {
+          "boundary_errors": 1,
+          "missed_entities": 33,
+          "spurious_entities": 0,
+          "label_confusion": {}
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "17 cc: : From: Area: Region: 5 X Chains: Independents: 82251504 11/05/97 11: 03 813 384 0683 LORILLARD TAMPA GREENSBOR 0002/ 003 Retail Excel Progress Report Submission for: Distribution by/ to: DM to RSM 1st of Month RSM to R W. C. 10th D. O. S. R. W. Caldarella Kent B. Mills July 31 August 29 September 30 October 31 November 28 December 30 Acceptance/ Response: What is the retailers response to Lorillard's Excel Merchandising plan? This program has been successful to date with chains where our \"Flex Payment\". was not place. The chains where were using the \"Flex Payment\" system we have not been las successful. The P. O. S. requirements of the P- 1 Plan with Oil Companies is difficult to obtain. Additional P. V. merchandising is being secured quickly, Additional monies have assisted Region 17 in fighting PM Exclusives and PM/ RJR co-existence situations. Hardware Evaluation/ Effectiveness: Comment on the assembly of displays and application of shields: The displays are easily assembled and durable. Some questions have been raised conceming the inability to be flush with the counter and/ or against the register. As well as the ability to place this or the Back Bar if the settlement goes through Pemanent Advertising Evaluation/ Effectiveness/ Acceptance: (P- 1/ P- 5 & C 5 Plans Only: Not available at this time",
+          "label": "answer",
+          "word_start": 0,
+          "word_end": 222
+        }
+      ],
+      "ocr_text": "17 cc: : From: Area: Region: 5 X Chains: Independents: 82251504 11/05/97 11: 03 813 384 0683 LORILLARD TAMPA GREENSBOR 0002/ 003 Retail Excel Progress Report Submission for: Distribution by/ to: DM to RSM 1st of Month RSM to R W. C. 10th D. O. S. R. W. Caldarella Kent B. Mills July 31 August 29 September 30 October 31 November 28 December 30 Acceptance/ Response: What is the retailers response to Lorillard's Excel Merchandising plan? This program has been successful to date with chains where our \"Flex Payment\". was not place. The chains where were using the \"Flex Payment\" system we have not been las successful. The P. O. S. requirements of the P- 1 Plan with Oil Companies is difficult to obtain. Additional P. V. merchandising is being secured quickly, Additional monies have assisted Region 17 in fighting PM Exclusives and PM/ RJR co-existence situations. Hardware Evaluation/ Effectiveness: Comment on the assembly of displays and application of shields: The displays are easily assembled and durable. Some questions have been raised conceming the inability to be flush with the counter and/ or against the register. As well as the ability to place this or the Back Bar if the settlement goes through Pemanent Advertising Evaluation/ Effectiveness/ Acceptance: (P- 1/ P- 5 & C 5 Plans Only: Not available at this time"
+    },
+    {
+      "sample_id": "4",
+      "split": "test",
+      "latency_ms": 698.5831000001781,
+      "metrics": {
+        "span_accuracy": 0.0,
+        "label_consistency": 0.0,
+        "labeled": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "predicted": 0,
+          "ground_truth": 81
+        },
+        "unlabeled": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "predicted": 0,
+          "ground_truth": 81
+        },
+        "boundary_analysis": {
+          "boundary_errors": 0,
+          "missed_entities": 38,
+          "spurious_entities": 0,
+          "label_confusion": {}
+        }
+      },
+      "predicted_entities": [],
+      "ocr_text": "AUG 4 SEP 15 JUN 23 MAY 12 REGION: DIVISION: 7 7 TO: FROM: SUBJECT: OLOGOLD.XLS 82252956 GEOGRAPHY DISTRIBUTION 144/14 93 K. A. Sparrow SUBMISSION DATE D. J. Landro OLD GOLD MENTHOL LIGHTS & ULTRA LIGHTS 100'S PROGRESS REPORT (ONLY IF PARTIAL REGION CONTINUE WITH DIVISION (S) SCOPE) DIVISION NAME: DIVISION NAME: DIVISION NAME: Milw. South Milw. North DIVISION NAME: DIVISION NAME: DIVISION NAME: # REP # REP # REPS DIRECT ACCOUNTS AND CHAINS HEADQUARTERED WITHIN THE REGION (15 + STORES) STOCKING NO OLD GOLD MENTHOL LIGHTS OR ULTRA LIGHTS 100'S NAME OF ACCOUNT IND/LOR VOLUME NO. OF STORES NAME OF ACCOUNT IND/LOR VOLUME NO. OF TORES Page1 of 3 Pages Walgreen Drug"
+    },
+    {
+      "sample_id": "5",
+      "split": "test",
+      "latency_ms": 679.2497999995248,
+      "metrics": {
+        "span_accuracy": 1.0,
+        "label_consistency": 0.7232704402515723,
+        "labeled": {
+          "precision": 0.6149732620320856,
+          "recall": 0.7232704402515723,
+          "f1": 0.6647398843930636,
+          "true_positives": 115,
+          "predicted": 187,
+          "ground_truth": 159
+        },
+        "unlabeled": {
+          "precision": 0.8502673796791443,
+          "recall": 1.0,
+          "f1": 0.9190751445086706,
+          "true_positives": 159,
+          "predicted": 187,
+          "ground_truth": 159
+        },
+        "boundary_analysis": {
+          "boundary_errors": 1,
+          "missed_entities": 33,
+          "spurious_entities": 0,
+          "label_confusion": {
+            "question->answer": 1
+          }
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "82253058 LORILLARD TO: FROM: DATE: AUG SEPT OCT NOV MANUFACTURER BRAND: X 12/ 10/ 36 09: 51 317 8450977 001/ 002 COMPETITIVE PRODUCT INTRODUCTION PROGRESS REPORT MRS. K. A. SPARROW R. J. Reynolds Camel Menthol Full Flavor Box and Light Box TYPE OF PACKINGS: R. G. Ryan 12/ 10/ 96 REPORTING PERIODS: (Forward by the 10th of the following month.) TEST MARKET GEOGRAPHY All of Region 7. PRICE POINT: FULL $ 11.89 P/ V $ (Indicate Distributor's Cost Per Carton) Merchandising the top tray of permanent counter displays and labeling carton fixtures in the Camel section. Also placing metal signs and temporary counter displays. SALES FORCE INVOLVEMENT: DISTRIBUTORS - ACCEPTANCE/ INTRO TERMS/ INTRO DEALS: Product is being introduced to all Direct: Accounts in the Region. Acceptance is spotty at this time. DISTRIBUTOR INVOLVEMENT: Assembly of promotional products and shipment to retail Indianapolis Direct Accounts are reported to be receiving B1G1F product. CHAINS - ACCEPTANCE/ MERCHANDISING ALLOWANCE Chain acceptance has been very good. INDEPENDENTS - ACCEPTANCE/ MERCHANDISING ALLOWANCE Acceptance is better at high volume locations than at lower volume retail calls. CAMEL WK1/ FMT PAGE 1 OF 2",
+          "label": "answer",
+          "word_start": 0,
+          "word_end": 187
+        }
+      ],
+      "ocr_text": "82253058 LORILLARD TO: FROM: DATE: AUG SEPT OCT NOV MANUFACTURER BRAND: X 12/ 10/ 36 09: 51 317 8450977 001/ 002 COMPETITIVE PRODUCT INTRODUCTION PROGRESS REPORT MRS. K. A. SPARROW R. J. Reynolds Camel Menthol Full Flavor Box and Light Box TYPE OF PACKINGS: R. G. Ryan 12/ 10/ 96 REPORTING PERIODS: (Forward by the 10th of the following month.) TEST MARKET GEOGRAPHY All of Region 7. PRICE POINT: FULL $ 11.89 P/ V $ (Indicate Distributor's Cost Per Carton) Merchandising the top tray of permanent counter displays and labeling carton fixtures in the Camel section. Also placing metal signs and temporary counter displays. SALES FORCE INVOLVEMENT: DISTRIBUTORS - ACCEPTANCE/ INTRO TERMS/ INTRO DEALS: Product is being introduced to all Direct: Accounts in the Region. Acceptance is spotty at this time. DISTRIBUTOR INVOLVEMENT: Assembly of promotional products and shipment to retail Indianapolis Direct Accounts are reported to be receiving B1G1F product. CHAINS - ACCEPTANCE/ MERCHANDISING ALLOWANCE Chain acceptance has been very good. INDEPENDENTS - ACCEPTANCE/ MERCHANDISING ALLOWANCE Acceptance is better at high volume locations than at lower volume retail calls. CAMEL WK1/ FMT PAGE 1 OF 2"
+    },
+    {
+      "sample_id": "6",
+      "split": "test",
+      "latency_ms": 730.2990999996837,
+      "metrics": {
+        "span_accuracy": 0.4607329842931937,
+        "label_consistency": 0.6931818181818182,
+        "labeled": {
+          "precision": 0.5398230088495575,
+          "recall": 0.3193717277486911,
+          "f1": 0.4013157894736841,
+          "true_positives": 61,
+          "predicted": 113,
+          "ground_truth": 191
+        },
+        "unlabeled": {
+          "precision": 0.7787610619469026,
+          "recall": 0.4607329842931937,
+          "f1": 0.5789473684210527,
+          "true_positives": 88,
+          "predicted": 113,
+          "ground_truth": 191
+        },
+        "boundary_analysis": {
+          "boundary_errors": 28,
+          "missed_entities": 44,
+          "spurious_entities": 2,
+          "label_confusion": {
+            "header->answer": 1,
+            "question->answer": 10
+          }
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "LOW",
+          "label": "answer",
+          "word_start": 39,
+          "word_end": 40
+        },
+        {
+          "text": "Transition",
+          "label": "answer",
+          "word_start": 45,
+          "word_end": 46
+        },
+        {
+          "text": "June 30 only) Overall pre- sell efforts were successful Retail accounts that previously stocked Style Full Price accepted the introduction of",
+          "label": "answer",
+          "word_start": 49,
+          "word_end": 70
+        },
+        {
+          "text": "low price BIGIF 2 FOR 1: Proved",
+          "label": "answer",
+          "word_start": 71,
+          "word_end": 78
+        },
+        {
+          "text": "be an excellent tool",
+          "label": "answer",
+          "word_start": 79,
+          "word_end": 83
+        },
+        {
+          "text": "pulling",
+          "label": "answer",
+          "word_start": 84,
+          "word_end": 85
+        },
+        {
+          "text": "balance",
+          "label": "answer",
+          "word_start": 86,
+          "word_end": 87
+        },
+        {
+          "text": "Style Full Price packs through",
+          "label": "answer",
+          "word_start": 88,
+          "word_end": 93
+        },
+        {
+          "text": "system.",
+          "label": "answer",
+          "word_start": 94,
+          "word_end": 95
+        },
+        {
+          "text": "aided",
+          "label": "answer",
+          "word_start": 96,
+          "word_end": 97
+        },
+        {
+          "text": "field greatly",
+          "label": "answer",
+          "word_start": 98,
+          "word_end": 100
+        },
+        {
+          "text": "transition $ 7.00 CARTON COUPON/ BUYDOWN: Effective in",
+          "label": "answer",
+          "word_start": 102,
+          "word_end": 110
+        },
+        {
+          "text": "retail calls that",
+          "label": "answer",
+          "word_start": 111,
+          "word_end": 114
+        },
+        {
+          "text": "could not exchange product out",
+          "label": "answer",
+          "word_start": 115,
+          "word_end": 120
+        },
+        {
+          "text": "situations were limited. DIRECT ACCOUNTS",
+          "label": "answer",
+          "word_start": 122,
+          "word_end": 127
+        },
+        {
+          "text": "HEADQUARTERED",
+          "label": "answer",
+          "word_start": 129,
+          "word_end": 130
+        },
+        {
+          "text": "REGION",
+          "label": "answer",
+          "word_start": 132,
+          "word_end": 133
+        },
+        {
+          "text": "STORES) STOCKING NO LOW PRICE STYLE NAME",
+          "label": "answer",
+          "word_start": 134,
+          "word_end": 141
+        },
+        {
+          "text": "IND/",
+          "label": "answer",
+          "word_start": 143,
+          "word_end": 144
+        },
+        {
+          "text": "VOLUME",
+          "label": "answer",
+          "word_start": 145,
+          "word_end": 146
+        },
+        {
+          "text": "IND/",
+          "label": "answer",
+          "word_start": 152,
+          "word_end": 153
+        },
+        {
+          "text": "137/ 20 DIRECT",
+          "label": "answer",
+          "word_start": 177,
+          "word_end": 180
+        },
+        {
+          "text": "HEADQUARTERED OUTSIDE THE REGION (15+ STORES) STOCKING NO LOW PRICE STYLE NAME",
+          "label": "answer",
+          "word_start": 183,
+          "word_end": 195
+        },
+        {
+          "text": "IND/ LOR VOLUME NO",
+          "label": "answer",
+          "word_start": 197,
+          "word_end": 201
+        },
+        {
+          "text": "STORES NAME",
+          "label": "answer",
+          "word_start": 202,
+          "word_end": 204
+        },
+        {
+          "text": "IND/ LOR VOLUME NO",
+          "label": "answer",
+          "word_start": 206,
+          "word_end": 210
+        },
+        {
+          "text": "STORES Rich Oil Super America W",
+          "label": "answer",
+          "word_start": 211,
+          "word_end": 217
+        },
+        {
+          "text": "Smith",
+          "label": "answer",
+          "word_start": 218,
+          "word_end": 219
+        },
+        {
+          "text": "11 318",
+          "label": "answer",
+          "word_start": 220,
+          "word_end": 222
+        },
+        {
+          "text": "Dairy",
+          "label": "answer",
+          "word_start": 223,
+          "word_end": 224
+        }
+      ],
+      "ocr_text": "TO: FROM: SUBJECT: X PRE- SELL DISTRIBUTION Sheetz 18 150 183 21 82 106 87 5 23 35 43 Kroger cvs 82253245 K. A. Sparrow R. E. Lane SUBMISSION DATE JUNE 30 AUG 11 SEP 22 NOV 10 STYLE LOW PRICE PROGRESS REPORT EFFECTIVENESS OF: Transition Plan (Report on June 30 only) Overall pre- sell efforts were successful Retail accounts that previously stocked Style Full Price accepted the introduction of the low price BIGIF 2 FOR 1: Proved to be an excellent tool for pulling the balance of Style Full Price packs through the system. This aided the field greatly during the transition $ 7.00 CARTON COUPON/ BUYDOWN: Effective in those retail calls that we could not exchange product out of. Those situations were limited. DIRECT ACCOUNTS AND CHAINS HEADQUARTERED WITHIN THE REGION (15+ STORES) STOCKING NO LOW PRICE STYLE NAME OF ACCOUNT IND/ LOR VOLUME NO. OF STORES NAME OF ACCOUNT IND/ LOR VOLUME NO. OF STORES M. Maskos & Sons Pollock Candy and Cigar McKeesport Candy Co. Sicc Serva Thrift/ Eckerd 104/ 22 521/ 42 137/ 20 DIRECT ACCOUNTS AND CHAINS HEADQUARTERED OUTSIDE THE REGION (15+ STORES) STOCKING NO LOW PRICE STYLE NAME OF ACCOUNT IND/ LOR VOLUME NO OF STORES NAME OF ACCOUNT IND/ LOR VOLUME NO OF STORES Rich Oil Super America W H Smith 7- 11 318 Zon Dairy Marts Widman Drugs STYLE XLS Page 1 of 3 Pages"
+    },
+    {
+      "sample_id": "7",
+      "split": "test",
+      "latency_ms": 709.1627000008884,
+      "metrics": {
+        "span_accuracy": 0.9945054945054945,
+        "label_consistency": 0.574585635359116,
+        "labeled": {
+          "precision": 0.4581497797356828,
+          "recall": 0.5714285714285714,
+          "f1": 0.508557457212714,
+          "true_positives": 104,
+          "predicted": 227,
+          "ground_truth": 182
+        },
+        "unlabeled": {
+          "precision": 0.7973568281938326,
+          "recall": 0.9945054945054945,
+          "f1": 0.8850855745721271,
+          "true_positives": 181,
+          "predicted": 227,
+          "ground_truth": 182
+        },
+        "boundary_analysis": {
+          "boundary_errors": 1,
+          "missed_entities": 98,
+          "spurious_entities": 0,
+          "label_confusion": {
+            "question->answer": 1
+          }
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "FROM: SUBJECT: \u2611 GEOGRAPHY REGION: FULL X DIVISION: FULL PARTIAL PARTIAL DISTRIBUTION 20 15 29 44 17 34 15 20 22 27 15 37 Chevron Exxon Walgreen's ? ? ? ? ? ? ? 115 38 217 38 27 70 177 82253362 MAVPROGO K. A. Sparrow SUBMISSION DATE MAY 19 \u2610 JUN 30 \u2610 AUG 11 \u2610 SEP 22 J. L. McGinnis MAVERICK SPECIALS MENTHOL - PROGRESS REPORT (ONLY IF PARTIAL REGION CONTINUE WITH DIVISION (S) SCOPE) DIVISION NAME: DIVISION NAME: DIVISION NAME: DIVISION NAME: DIVISION NAME: DIVISION NAME: # REPS # REPS # REPS DIRECT ACCOUNTS AND CHAINS HEADQUARTERED WITHIN THE REGION (15+ STORES) STOCKING NO MAVERICK SPECIALS MENTHOL NAME OF ACCOUNT IND/ LOR VOLUME NO. OF STORES NAME OF ACCOUNT IND/ LOR VOLUME NO. OF STORES Sac N Pac ACO Texaco Lone Star 75/ 2 95/ 3 76/ 3 26/ 2 42/ 2 106 /4 62/ 2 78/ 4 319/ 16 65/ 3 69/ 3 80/ 4 Shopper Mart Neal One Stop Mini Mart Albertson's -Houston Valley Shamrock Get Go Speedy Stop Western Beverage Don & Bens DIRECT ACCOUNTS AND CHAINS HEADQUARTERED OUTSIDE THE REGION (15+ STORES) STOCKING NO MAVERICK SPECIALS MENTHOL NAME OF ACCOUNT IND/ LOR VOLUME NO. OF STORES NAME OF ACCOUNTS IND/ LOR VOLUME NO. OF STORES Brookshire Bro's Eckerd Drugs S. Texas Philip's 66 Star Enterprise Page 1 of 3 Pages",
+          "label": "answer",
+          "word_start": 1,
+          "word_end": 228
+        }
+      ],
+      "ocr_text": "TO: FROM: SUBJECT: \u2611 GEOGRAPHY REGION: FULL X DIVISION: FULL PARTIAL PARTIAL DISTRIBUTION 20 15 29 44 17 34 15 20 22 27 15 37 Chevron Exxon Walgreen's ? ? ? ? ? ? ? 115 38 217 38 27 70 177 82253362 MAVPROGO K. A. Sparrow SUBMISSION DATE MAY 19 \u2610 JUN 30 \u2610 AUG 11 \u2610 SEP 22 J. L. McGinnis MAVERICK SPECIALS MENTHOL - PROGRESS REPORT (ONLY IF PARTIAL REGION CONTINUE WITH DIVISION (S) SCOPE) DIVISION NAME: DIVISION NAME: DIVISION NAME: DIVISION NAME: DIVISION NAME: DIVISION NAME: # REPS # REPS # REPS DIRECT ACCOUNTS AND CHAINS HEADQUARTERED WITHIN THE REGION (15+ STORES) STOCKING NO MAVERICK SPECIALS MENTHOL NAME OF ACCOUNT IND/ LOR VOLUME NO. OF STORES NAME OF ACCOUNT IND/ LOR VOLUME NO. OF STORES Sac N Pac ACO Texaco Lone Star 75/ 2 95/ 3 76/ 3 26/ 2 42/ 2 106 /4 62/ 2 78/ 4 319/ 16 65/ 3 69/ 3 80/ 4 Shopper Mart Neal One Stop Mini Mart Albertson's -Houston Valley Shamrock Get Go Speedy Stop Western Beverage Don & Bens DIRECT ACCOUNTS AND CHAINS HEADQUARTERED OUTSIDE THE REGION (15+ STORES) STOCKING NO MAVERICK SPECIALS MENTHOL NAME OF ACCOUNT IND/ LOR VOLUME NO. OF STORES NAME OF ACCOUNTS IND/ LOR VOLUME NO. OF STORES Brookshire Bro's Eckerd Drugs S. Texas Philip's 66 Star Enterprise Page 1 of 3 Pages"
+    },
+    {
+      "sample_id": "8",
+      "split": "test",
+      "latency_ms": 711.9287000004988,
+      "metrics": {
+        "span_accuracy": 0.9117647058823529,
+        "label_consistency": 0.3333333333333333,
+        "labeled": {
+          "precision": 0.3163265306122449,
+          "recall": 0.30392156862745096,
+          "f1": 0.31,
+          "true_positives": 31,
+          "predicted": 98,
+          "ground_truth": 102
+        },
+        "unlabeled": {
+          "precision": 0.9489795918367347,
+          "recall": 0.9117647058823529,
+          "f1": 0.9300000000000002,
+          "true_positives": 93,
+          "predicted": 98,
+          "ground_truth": 102
+        },
+        "boundary_analysis": {
+          "boundary_errors": 3,
+          "missed_entities": 39,
+          "spurious_entities": 0,
+          "label_confusion": {
+            "question->answer": 3
+          }
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "FROM: 1/24/97 2 1 1 1 ITEMS zbulan 82254765 01/17/97 REQFORM 1500 500 K. A. SPARROW DATE",
+          "label": "answer",
+          "word_start": 1,
+          "word_end": 18
+        },
+        {
+          "text": "NYO: S. Reindel Nassau/ 107 DIV. NAME/ NO: 1997 SPECIAL EVENT REQUEST FORM NAME OF EVENT: \"DATE OF EVENT: 3/18/97 H. Levinson Tradeshow SAMPLE 10'S (400 PACKS PER CASE) SAMPLES/ ITEMS REQUIRED: NEWPORT K. S. NEWPORT 100's NEWPORT LTS K. S. NEWPORT LTS. 100 KENT III K. S. # CASES KENT GL LTS K. S. GL 100 KENT III 100 TRUE K. S. KENT K. S. KENT 100 QUANTITY REQUIRED BASEBALL CAP WATER BOTTLES SHIP",
+          "label": "answer",
+          "word_start": 19,
+          "word_end": 94
+        },
+        {
+          "text": "CUSTOMER SHIPPING NUMBER 198- 1160006 NYO",
+          "label": "answer",
+          "word_start": 95,
+          "word_end": 101
+        }
+      ],
+      "ocr_text": "TO: FROM: 1/24/97 2 1 1 1 ITEMS zbulan 82254765 01/17/97 REQFORM 1500 500 K. A. SPARROW DATE TO NYO: S. Reindel Nassau/ 107 DIV. NAME/ NO: 1997 SPECIAL EVENT REQUEST FORM NAME OF EVENT: \"DATE OF EVENT: 3/18/97 H. Levinson Tradeshow SAMPLE 10'S (400 PACKS PER CASE) SAMPLES/ ITEMS REQUIRED: NEWPORT K. S. NEWPORT 100's NEWPORT LTS K. S. NEWPORT LTS. 100 KENT III K. S. # CASES KENT GL LTS K. S. GL 100 KENT III 100 TRUE K. S. KENT K. S. KENT 100 QUANTITY REQUIRED BASEBALL CAP WATER BOTTLES SHIP TO: CUSTOMER SHIPPING NUMBER 198- 1160006 NYO ONLY: DATE FORWARDED TO PROMOTION SERVICES: PLEASE ALLOW 6 WEEKS FOR PROCESSING OF YOUR REQUEST"
+    },
+    {
+      "sample_id": "9",
+      "split": "test",
+      "latency_ms": 720.5872000013187,
+      "metrics": {
+        "span_accuracy": 0.0,
+        "label_consistency": 0.0,
+        "labeled": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "predicted": 0,
+          "ground_truth": 68
+        },
+        "unlabeled": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "predicted": 0,
+          "ground_truth": 68
+        },
+        "boundary_analysis": {
+          "boundary_errors": 0,
+          "missed_entities": 18,
+          "spurious_entities": 0,
+          "label_confusion": {}
+        }
+      },
+      "predicted_entities": [],
+      "ocr_text": "COURT: JUDGE: Asbestos CASE FORM CASE NAME: LORILLARD ENTITIES: DATE FILED: DATE SERVED: CASE TYPE: PLAINTIFF COUNSEL: LORILLARD COUNSEL: TRIAL DATE: Wartnick, Chaber, Harowitz, Smith & Tigerman Madelyn J. Chaber 101 California Street, Suite 2200 San Francisco, California 94111 415 986- 5566 August 3, 1998 July 23, 1998 Lorillard Tobacco Company San Francisco Superior Court - No. 996378 Wanda G. Robinson and Carroll Robinson v Raybestos- Manhattan, et al. 82491256 94624999"
+    }
+  ],
+  "noisy_test_ner_results": [
+    {
+      "sample_id": "0",
+      "split": "test",
+      "latency_ms": 750.0928000008571,
+      "metrics": {
+        "span_accuracy": 0.0,
+        "label_consistency": 0.0,
+        "labeled": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "predicted": 0,
+          "ground_truth": 188
+        },
+        "unlabeled": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "predicted": 0,
+          "ground_truth": 188
+        },
+        "boundary_analysis": {
+          "boundary_errors": 0,
+          "missed_entities": 22,
+          "spurious_entities": 0,
+          "label_confusion": {}
+        }
+      },
+      "predicted_entities": [],
+      "ocr_text": "TO: DATE: 3 *** *** *** 614 4-66 -5087 Dec ** '98 17 :46 P. 01 ATT. GEN. ADIN. OFFICE Attorney General Betty D. *** CONFIDENTIAL FACSIMILE TRANSMISSION COVE SHEET (614) 466- 5087 FAX NO. George Baroody (336) 335- 7392 FAX NUMBER: PHONE NUMBER: (336) 335- 7363 NUMBER OF *** *** COVER SHEET: June Flynn for Eric Brown/ (614) 466- 8980 SENDER *** NUMBER: SPECIAL INSTRUCTIONS: IF YOU DO NOT RECEIVE ANY OF THE PAGES PROPERLY, PLEASE CONTACT SENDER AS SOON AS POSSIBLE THIS MESSAGE IS INTENDED ONLY FOR THE USE F THE *** OR ENTITY TO WHOM IT IS ADDRESSED AND MAY CONTAIN INFORMATION THAT IS PRIVILEGED. CONFIDENTIAL, AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE LAW. If *** readr of thsi messge is not the intended recipient ** the employee or agnt responsible for delivering the message to the intended recipient, you are hereby notiifed that any dissemination, distribution, copying, or conveying of this communication in any manner is strictly prohibited. I you have received this comunication in error, please ntify us immediately by telephone and *** the original message ** us at the address below via the U. S. Postal Service. Thank you for your cooperation. State Office Tower / 30 East Broad Street/ *** Ohio 43215 -3428 www ag state oh us An Equal Opportunity Employer Primed an 12 /10 /98"
+    },
+    {
+      "sample_id": "1",
+      "split": "test",
+      "latency_ms": 781.5836999998282,
+      "metrics": {
+        "span_accuracy": 1.0,
+        "label_consistency": 0.7083333333333334,
+        "labeled": {
+          "precision": 0.5089820359281437,
+          "recall": 0.7083333333333334,
+          "f1": 0.5923344947735192,
+          "true_positives": 85,
+          "predicted": 167,
+          "ground_truth": 120
+        },
+        "unlabeled": {
+          "precision": 0.718562874251497,
+          "recall": 1.0,
+          "f1": 0.8362369337979094,
+          "true_positives": 120,
+          "predicted": 167,
+          "ground_truth": 120
+        },
+        "boundary_analysis": {
+          "boundary_errors": 1,
+          "missed_entities": 52,
+          "spurious_entities": 0,
+          "label_confusion": {
+            "question->answer": 1
+          }
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "TO: FROM: x SUBJECT: DIVISION: DIVISION: DIVISION: DIIVSION: REGION: DIVISION: DIVISION: DIVISION: 225 27 ** 31 18 19 ** 8220067 09 17/ 9 10: 55 603 841 1898 LORILLARD PTLD \u2611 001 K. A. Sparrow T. D. Blachly OLD GOLD MENTHOL LIGHTS & ULTRA LIGHTS 100'S PROGRESS REPORT AUG 4 SEP 15 MAY 12 JUN ** (ONLY IF PARTIAL REGION CONTINUE WITH DIVISION (S) CSOPE) Portland # REPS: 6 Boise # REPS: . * Euene # REPS: 5 Seattle South # REPS: 7 Seattle North # REPS: 4 Helena # RES: * DIRCT *** AND CHAINS HEADQUARTERED *** THE REION (5 + STORES) STOCKING NO OLD GOLD MENTHOL LIGHTS R ULTRA LIGHTS 100'S NAME OF ACCOUNT VOLUME NO. OF STORES NAME OF ACCOUNT VOLUME NO. OF STORES Texaco Seattle *** Portland Maid -O Clovre Dari Mart Zip Trip Maverick Astro Gas 105 / 5 61 / 3 20 / * 215 / 5 06 / * 77 / * 600 / 7 Page 1 of 3 Pages",
+          "label": "answer",
+          "word_start": 0,
+          "word_end": 167
+        }
+      ],
+      "ocr_text": "TO: FROM: x SUBJECT: DIVISION: DIVISION: DIVISION: DIIVSION: REGION: DIVISION: DIVISION: DIVISION: 225 27 ** 31 18 19 ** 8220067 09 17/ 9 10: 55 603 841 1898 LORILLARD PTLD \u2611 001 K. A. Sparrow T. D. Blachly OLD GOLD MENTHOL LIGHTS & ULTRA LIGHTS 100'S PROGRESS REPORT AUG 4 SEP 15 MAY 12 JUN ** (ONLY IF PARTIAL REGION CONTINUE WITH DIVISION (S) CSOPE) Portland # REPS: 6 Boise # REPS: . * Euene # REPS: 5 Seattle South # REPS: 7 Seattle North # REPS: 4 Helena # RES: * DIRCT *** AND CHAINS HEADQUARTERED *** THE REION (5 + STORES) STOCKING NO OLD GOLD MENTHOL LIGHTS R ULTRA LIGHTS 100'S NAME OF ACCOUNT VOLUME NO. OF STORES NAME OF ACCOUNT VOLUME NO. OF STORES Texaco Seattle *** Portland Maid -O Clovre Dari Mart Zip Trip Maverick Astro Gas 105 / 5 61 / 3 20 / * 215 / 5 06 / * 77 / * 600 / 7 Page 1 of 3 Pages"
+    },
+    {
+      "sample_id": "2",
+      "split": "test",
+      "latency_ms": 760.3497000000061,
+      "metrics": {
+        "span_accuracy": 1.0,
+        "label_consistency": 0.7745098039215687,
+        "labeled": {
+          "precision": 0.7383177570093458,
+          "recall": 0.7745098039215687,
+          "f1": 0.7559808612440191,
+          "true_positives": 158,
+          "predicted": 214,
+          "ground_truth": 204
+        },
+        "unlabeled": {
+          "precision": 0.9532710280373832,
+          "recall": 1.0,
+          "f1": 0.9760765550239235,
+          "true_positives": 204,
+          "predicted": 214,
+          "ground_truth": 204
+        },
+        "boundary_analysis": {
+          "boundary_errors": 1,
+          "missed_entities": 32,
+          "spurious_entities": 0,
+          "label_confusion": {
+            "question->answer": 1
+          }
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "TO: FROM: DATE: MANUFACTURER: BRAND: Oct. Dec. Jan. Nov. X B&W 82250337 COMPETITIVE *** INTRODUCTION PROGRESS REPORT Sam Zolot Kol Waterfall All Packings TPE OF PACKINGS D. ** *** 2- Dec- 97 REPORTING PERIODS: TEST MARKET GEOGRAPHY: Divisions *** and *** wisconsin PRCE POINT: FULLS $ P/ * $ (Indicate Distributo's Cost Per Carton) SALES FORCE INVOLVEMENT: They have rcew- worked *** and it is reported that they may crew- work it again Sales force has been busy promoting old stye backs to clean up inventory. All POS is being converted to \"B\" *** DISTRIBUTORS ACCEPTANCE INTRO TERMS INTRO DEALS INVOLVEMENT: All ccounts have the new packaging. It was not a problem obtaining new distribution. All accounts appear to *** 100% distribution of new packings. CHAINS ACCEPTANCE/ MERCHANDISING: This has not been a problem. New packaging is *** following on the old \"packaging\". INDEPENDENTS ACCEPTANCE/ MERCHANDISING: Very well rceeived. The packs are peing consoldiated and promoted in select retali locations at 40 off $4 00 off cartons. ADVERTISING EFFECTIVENESS OF P. O. S: The theme \"B\" Kool hsa replaced all prvious POS. They have effectively replaced all old POS. ew door *** hour signs, poster mats, and clcks have the new design. \"B\" Kool also appears on billboards in llinois. PAEG 1 O 2",
+          "label": "answer",
+          "word_start": 0,
+          "word_end": 214
+        }
+      ],
+      "ocr_text": "TO: FROM: DATE: MANUFACTURER: BRAND: Oct. Dec. Jan. Nov. X B&W 82250337 COMPETITIVE *** INTRODUCTION PROGRESS REPORT Sam Zolot Kol Waterfall All Packings TPE OF PACKINGS D. ** *** 2- Dec- 97 REPORTING PERIODS: TEST MARKET GEOGRAPHY: Divisions *** and *** wisconsin PRCE POINT: FULLS $ P/ * $ (Indicate Distributo's Cost Per Carton) SALES FORCE INVOLVEMENT: They have rcew- worked *** and it is reported that they may crew- work it again Sales force has been busy promoting old stye backs to clean up inventory. All POS is being converted to \"B\" *** DISTRIBUTORS ACCEPTANCE INTRO TERMS INTRO DEALS INVOLVEMENT: All ccounts have the new packaging. It was not a problem obtaining new distribution. All accounts appear to *** 100% distribution of new packings. CHAINS ACCEPTANCE/ MERCHANDISING: This has not been a problem. New packaging is *** following on the old \"packaging\". INDEPENDENTS ACCEPTANCE/ MERCHANDISING: Very well rceeived. The packs are peing consoldiated and promoted in select retali locations at 40 off $4 00 off cartons. ADVERTISING EFFECTIVENESS OF P. O. S: The theme \"B\" Kool hsa replaced all prvious POS. They have effectively replaced all old POS. ew door *** hour signs, poster mats, and clcks have the new design. \"B\" Kool also appears on billboards in llinois. PAEG 1 O 2"
+    },
+    {
+      "sample_id": "3",
+      "split": "test",
+      "latency_ms": 806.6487999985839,
+      "metrics": {
+        "span_accuracy": 1.0,
+        "label_consistency": 0.654639175257732,
+        "labeled": {
+          "precision": 0.5720720720720721,
+          "recall": 0.654639175257732,
+          "f1": 0.6105769230769231,
+          "true_positives": 127,
+          "predicted": 222,
+          "ground_truth": 194
+        },
+        "unlabeled": {
+          "precision": 0.8738738738738738,
+          "recall": 1.0,
+          "f1": 0.9326923076923077,
+          "true_positives": 194,
+          "predicted": 222,
+          "ground_truth": 194
+        },
+        "boundary_analysis": {
+          "boundary_errors": 1,
+          "missed_entities": 33,
+          "spurious_entities": 0,
+          "label_confusion": {}
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "17 cc : From: Area: Region: 5 X Chains: Independent:s 82251504 1/105/97 11: 03 813 384 0683 LORILLARD TAMPA GREENSBOR 0002/ 003 Retail Excel Progress Report Submission for: Distribution by/ o: DM to RSM 1st of Month RSM to R W. ** 10th D. O. S. R ** Caldarella Kent B. Mills July 31 August 29 Sepetmber 30 October 31 November 28 Dceember 30 Acceptance/ Respons: Wht is *** retailers response to Lorillard's Excel Merchandising plan? This *** has been successful o date with chains where our \"Flex Payment\". was not place. The chains where were using the \"Flex Payment\" sysem we have nt been las successful. The P. O. S requirements of the P- 1 Plan with Oil Companies is difficult to obtain. Additional P. V. merchandising is being secured quickly, Additional monies have assisted Region 17 in fighting PM Exculsives and PM/ JRR co-existece situations. Hardware Evaluation/ Effectiveness: Comment on the assembly of *** and application ** shields: The displays are easily assembled adn durable. Some questions have been raised concemng the inability to be flush with the counter and/ ** against the register. As well as the ability to plae thi or the Back Bar i *** settlement goes through Pemanent Advertising Evaluation/ Effectievness/ Acceptance: (P- 1/ P- 5 * C 5 Plans *** Not available at this time",
+          "label": "answer",
+          "word_start": 0,
+          "word_end": 222
+        }
+      ],
+      "ocr_text": "17 cc : From: Area: Region: 5 X Chains: Independent:s 82251504 1/105/97 11: 03 813 384 0683 LORILLARD TAMPA GREENSBOR 0002/ 003 Retail Excel Progress Report Submission for: Distribution by/ o: DM to RSM 1st of Month RSM to R W. ** 10th D. O. S. R ** Caldarella Kent B. Mills July 31 August 29 Sepetmber 30 October 31 November 28 Dceember 30 Acceptance/ Respons: Wht is *** retailers response to Lorillard's Excel Merchandising plan? This *** has been successful o date with chains where our \"Flex Payment\". was not place. The chains where were using the \"Flex Payment\" sysem we have nt been las successful. The P. O. S requirements of the P- 1 Plan with Oil Companies is difficult to obtain. Additional P. V. merchandising is being secured quickly, Additional monies have assisted Region 17 in fighting PM Exculsives and PM/ JRR co-existece situations. Hardware Evaluation/ Effectiveness: Comment on the assembly of *** and application ** shields: The displays are easily assembled adn durable. Some questions have been raised concemng the inability to be flush with the counter and/ ** against the register. As well as the ability to plae thi or the Back Bar i *** settlement goes through Pemanent Advertising Evaluation/ Effectievness/ Acceptance: (P- 1/ P- 5 * C 5 Plans *** Not available at this time"
+    },
+    {
+      "sample_id": "4",
+      "split": "test",
+      "latency_ms": 766.7427999986103,
+      "metrics": {
+        "span_accuracy": 0.0,
+        "label_consistency": 0.0,
+        "labeled": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "predicted": 0,
+          "ground_truth": 81
+        },
+        "unlabeled": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "predicted": 0,
+          "ground_truth": 81
+        },
+        "boundary_analysis": {
+          "boundary_errors": 0,
+          "missed_entities": 38,
+          "spurious_entities": 0,
+          "label_confusion": {}
+        }
+      },
+      "predicted_entities": [],
+      "ocr_text": "AUG 4 SEP 15 JUN 23 MAY 12 REGION: DIVISION: 7 7 TO: FROM: SUBJECT: OLOGOLD.XLS *** GEOGRAPHY DISTRIBUTION 144/14 93 K. A. Sparrow SUBMISSION DATE D. J. Landro OLD GOLD MENTHOL LIGHTS * ULTRA LIGHTS 100'S PROGRESS REPORT (ONLY IF PARITAL REGION CONTINUE WITH DIVISION S) SCOPE) DIVISION NAME: *** NAME: DIVISION NAME: Milw South Milw. North DIVISION NAME: DIVISION NAME: DIVISION NAME: # RPE # REP # REPS DIRECT ACCOUNTS AND CHAINS HEADQUARTERED WITHIN THE REGON (15 + STORES) STOCKING NO OLD *** MENHTOL LIGHTS OR ULTRA *** 100'S NAME OF ACCOUNT IND/LOR VOLUME NO. OF STORES NAME OF *** IND/LOR VOLUME NO. OF TORES Page1 f 3 Pages Walgreen Drug"
+    },
+    {
+      "sample_id": "5",
+      "split": "test",
+      "latency_ms": 716.3194000004296,
+      "metrics": {
+        "span_accuracy": 1.0,
+        "label_consistency": 0.7232704402515723,
+        "labeled": {
+          "precision": 0.6149732620320856,
+          "recall": 0.7232704402515723,
+          "f1": 0.6647398843930636,
+          "true_positives": 115,
+          "predicted": 187,
+          "ground_truth": 159
+        },
+        "unlabeled": {
+          "precision": 0.8502673796791443,
+          "recall": 1.0,
+          "f1": 0.9190751445086706,
+          "true_positives": 159,
+          "predicted": 187,
+          "ground_truth": 159
+        },
+        "boundary_analysis": {
+          "boundary_errors": 1,
+          "missed_entities": 33,
+          "spurious_entities": 0,
+          "label_confusion": {
+            "question->answer": 1
+          }
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "82253058 LORILLARD TO: FROM: DATE AUG SETP OCT NOV MANUFACTURER BRAND: X 12/ 10/ 36 09: 51 *** 8450977 001/ 002 COMPETITIVE PRODUCT *** PROGRESS REPORT MRS. K. A. SPARROW R. . Reynolds Camel enthol Full Flavor Box and Light Box TYPE OF PACKINGS: R. ** *** 12/ 10/ ** REPORTING PERIODS: (Forward by the 0th of the following month.) TEST *** GEOGRAPHY All of Region 7. PRICE POINT: FULL $ 1.189 P/ V $ (Indicate Distributor's Cost Per Carton) Merchandising the top tray of permanent counter displas and labeling carton fixtures in the Camel section. lso placing metal signs and emporary counter displays. *** FORCE INVOLVEMENT: DISTRIBUTORS - ACCEPTANCE/ INTRO TERMS/ INTRO DEALS: Product is *** *** to all Direct: Accounts in the Region. Acceptance is spotty ** this time. DISTRIBUTOR INVOLVEMENT: Assembly of promotional *** and shipment to retail Indianapolis Direct Accounts are reported to be receivign *** product. CHAINS - ACCEPTANCE/ MERCHANDISING ALLOWANCE Chain acceptance has been very *** INDEPENDENTS - ACCEPTANCE/ MERCHANDISING ALLOWNACE Acceptance is better at high volume locations than at lower volume retail calls. CAMEL WK1/ *** PAGE 1 OF 2",
+          "label": "answer",
+          "word_start": 0,
+          "word_end": 187
+        }
+      ],
+      "ocr_text": "82253058 LORILLARD TO: FROM: DATE AUG SETP OCT NOV MANUFACTURER BRAND: X 12/ 10/ 36 09: 51 *** 8450977 001/ 002 COMPETITIVE PRODUCT *** PROGRESS REPORT MRS. K. A. SPARROW R. . Reynolds Camel enthol Full Flavor Box and Light Box TYPE OF PACKINGS: R. ** *** 12/ 10/ ** REPORTING PERIODS: (Forward by the 0th of the following month.) TEST *** GEOGRAPHY All of Region 7. PRICE POINT: FULL $ 1.189 P/ V $ (Indicate Distributor's Cost Per Carton) Merchandising the top tray of permanent counter displas and labeling carton fixtures in the Camel section. lso placing metal signs and emporary counter displays. *** FORCE INVOLVEMENT: DISTRIBUTORS - ACCEPTANCE/ INTRO TERMS/ INTRO DEALS: Product is *** *** to all Direct: Accounts in the Region. Acceptance is spotty ** this time. DISTRIBUTOR INVOLVEMENT: Assembly of promotional *** and shipment to retail Indianapolis Direct Accounts are reported to be receivign *** product. CHAINS - ACCEPTANCE/ MERCHANDISING ALLOWANCE Chain acceptance has been very *** INDEPENDENTS - ACCEPTANCE/ MERCHANDISING ALLOWNACE Acceptance is better at high volume locations than at lower volume retail calls. CAMEL WK1/ *** PAGE 1 OF 2"
+    },
+    {
+      "sample_id": "6",
+      "split": "test",
+      "latency_ms": 734.5475000001898,
+      "metrics": {
+        "span_accuracy": 0.9842931937172775,
+        "label_consistency": 0.6329787234042553,
+        "labeled": {
+          "precision": 0.5151515151515151,
+          "recall": 0.6230366492146597,
+          "f1": 0.5639810426540285,
+          "true_positives": 119,
+          "predicted": 231,
+          "ground_truth": 191
+        },
+        "unlabeled": {
+          "precision": 0.8138528138528138,
+          "recall": 0.9842931937172775,
+          "f1": 0.8909952606635072,
+          "true_positives": 188,
+          "predicted": 231,
+          "ground_truth": 191
+        },
+        "boundary_analysis": {
+          "boundary_errors": 3,
+          "missed_entities": 61,
+          "spurious_entities": 0,
+          "label_confusion": {
+            "question->answer": 1
+          }
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "FROM: SUBJECT: X PRE- SELL DISTRIBUTION Sheetz 18 150 183 21 82 106 87 5 23 35 43 Kroger cvs 82253245 K. ** Saprrow R. E. Lane SUBMISSION DATE JUNE 3 AUG ** SEP 22 NOV 10 STYLE LOW PRICE PROGRESS REPORT EFFECTIVENESS OF: Transition Plan (Report on June 30 only) Overall pre- sell efforts were successful Rteail accounts that previously stocked Style Full Price accepted the introduction of the low price BIGIF 2 *** 1: Proved to be an excellent tool for pulling teh balance of Style Full Price packs through the system. Tihs aided teh field greatly during teh transition $ 7.00 CARTON COUPON/ BUYDOWN: Effective in those retail calls that we could not exchange product out of.",
+          "label": "answer",
+          "word_start": 1,
+          "word_end": 121
+        },
+        {
+          "text": "situations were limited. DIRECT ACCOUNTS AND CHAINS HEADQUARTERED WITHIN THE *** (15+ STORES) STOCKING NO LOW PRICE SYTLE NAME OF *** IND/ LOR VOLUME NO. OF SORES NAME OF ACCOUNT ID/ LOR VOLUME NO. OF STORES M. Maskos & Sons *** Candy",
+          "label": "answer",
+          "word_start": 122,
+          "word_end": 164
+        },
+        {
+          "text": "Cigar McKeesport Candy Co. Sicc Serva Thrift/ Eckerd 104/ 22 521/ ** 137/ 20 DIRECT ACCOUNTS AND CHAINS HEADQUARTERED OUTSIDE THE REGION (15+ STORES) STOCKING NO LOW PRICE STYLE NAME O ACCOUNT IDN/ LOR VOLUME NO OF STORES *** OF ACCOUNT IND/ LOR VOLUME NO OF STORES Rich Oil Super America W H Smith 7- 11 318 Zon Dairy Marts Widman Drugs STYLE *** Page 1 of 3 Pges",
+          "label": "answer",
+          "word_start": 165,
+          "word_end": 234
+        }
+      ],
+      "ocr_text": "TO: FROM: SUBJECT: X PRE- SELL DISTRIBUTION Sheetz 18 150 183 21 82 106 87 5 23 35 43 Kroger cvs 82253245 K. ** Saprrow R. E. Lane SUBMISSION DATE JUNE 3 AUG ** SEP 22 NOV 10 STYLE LOW PRICE PROGRESS REPORT EFFECTIVENESS OF: Transition Plan (Report on June 30 only) Overall pre- sell efforts were successful Rteail accounts that previously stocked Style Full Price accepted the introduction of the low price BIGIF 2 *** 1: Proved to be an excellent tool for pulling teh balance of Style Full Price packs through the system. Tihs aided teh field greatly during teh transition $ 7.00 CARTON COUPON/ BUYDOWN: Effective in those retail calls that we could not exchange product out of. Those situations were limited. DIRECT ACCOUNTS AND CHAINS HEADQUARTERED WITHIN THE *** (15+ STORES) STOCKING NO LOW PRICE SYTLE NAME OF *** IND/ LOR VOLUME NO. OF SORES NAME OF ACCOUNT ID/ LOR VOLUME NO. OF STORES M. Maskos & Sons *** Candy and Cigar McKeesport Candy Co. Sicc Serva Thrift/ Eckerd 104/ 22 521/ ** 137/ 20 DIRECT ACCOUNTS AND CHAINS HEADQUARTERED OUTSIDE THE REGION (15+ STORES) STOCKING NO LOW PRICE STYLE NAME O ACCOUNT IDN/ LOR VOLUME NO OF STORES *** OF ACCOUNT IND/ LOR VOLUME NO OF STORES Rich Oil Super America W H Smith 7- 11 318 Zon Dairy Marts Widman Drugs STYLE *** Page 1 of 3 Pges"
+    },
+    {
+      "sample_id": "7",
+      "split": "test",
+      "latency_ms": 705.1864999993995,
+      "metrics": {
+        "span_accuracy": 1.0,
+        "label_consistency": 0.5714285714285714,
+        "labeled": {
+          "precision": 0.45614035087719296,
+          "recall": 0.5714285714285714,
+          "f1": 0.5073170731707317,
+          "true_positives": 104,
+          "predicted": 228,
+          "ground_truth": 182
+        },
+        "unlabeled": {
+          "precision": 0.7982456140350878,
+          "recall": 1.0,
+          "f1": 0.8878048780487805,
+          "true_positives": 182,
+          "predicted": 228,
+          "ground_truth": 182
+        },
+        "boundary_analysis": {
+          "boundary_errors": 1,
+          "missed_entities": 98,
+          "spurious_entities": 0,
+          "label_confusion": {
+            "question->answer": 1
+          }
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "TO: FROM: SUBJECT: * GEOGRAPHY REGION: FULL X DIVISION: FULL PARTIAL PARTIAL DISTRIBUTION 20 15 9 44 ** 3 15 20 22 27 15 37 Chevron Exxon *** ? ? ? ? ? ? * 115 38 217 38 27 70 *** 82253362 MAVPROGO K. A. *** SUBMISSION DATE AY 19 \u2610 JUN 30 \u2610 AUG 11 \u2610 SEP 22 J. L. McGinnis MAVERICK SPECIALS MENTHOL - ROGRESS *** (ONLY IF PARTIAL REGION CONTINUE WITH DIVISION (S) SCOPE) DIVISION NAME: DIVISION NAME: DIVISION *** DIVISION NAME: DIVISION NAME: DIVISION NAME: # REPS # REPS # REPS DIRECT ACCOUNTS AND CHAIS HEADQUARTERED WITHIN THE REGION (15+ STORES) STOCKING NO MAVERICK SPECIALS MENTHOL NAME OF ACCOUNT IND/ LOR VOLUME NO. OF STORES NAME OF ACCOUNT IND/ LOR VOLUME NO. OF STORES Sac N Pac ACO Texaco Lnoe Star 75/ 2 9/5 3 76/ 3 2/6 2 42/ 2 106 /4 62/ 2 78/ 4 319/ 16 65/ 3 6/9 3 80/ 4 Shopepr Matr Neal On Stop Mini Mart Albertson's -Houston Valley Shamrock Get Go Speedy Sop Western Beverge Don & Bens DIRECT *** AND CHAINS HEADQUARTERED OUTSDIE THE *** (15+ STORES) STOCKING NO MAVERICK SPECIALS MENTHOL NAME OF *** IND/ LOR *** NO. OF STORES NAE OF ACCOUNTS IND/ LOR VOLUME NO. ** STORES Brookshire Bro's Eckerd Drugs S. Texas Philip's 66 Star Enterprise Page 1 ** 3 Pages",
+          "label": "answer",
+          "word_start": 0,
+          "word_end": 228
+        }
+      ],
+      "ocr_text": "TO: FROM: SUBJECT: * GEOGRAPHY REGION: FULL X DIVISION: FULL PARTIAL PARTIAL DISTRIBUTION 20 15 9 44 ** 3 15 20 22 27 15 37 Chevron Exxon *** ? ? ? ? ? ? * 115 38 217 38 27 70 *** 82253362 MAVPROGO K. A. *** SUBMISSION DATE AY 19 \u2610 JUN 30 \u2610 AUG 11 \u2610 SEP 22 J. L. McGinnis MAVERICK SPECIALS MENTHOL - ROGRESS *** (ONLY IF PARTIAL REGION CONTINUE WITH DIVISION (S) SCOPE) DIVISION NAME: DIVISION NAME: DIVISION *** DIVISION NAME: DIVISION NAME: DIVISION NAME: # REPS # REPS # REPS DIRECT ACCOUNTS AND CHAIS HEADQUARTERED WITHIN THE REGION (15+ STORES) STOCKING NO MAVERICK SPECIALS MENTHOL NAME OF ACCOUNT IND/ LOR VOLUME NO. OF STORES NAME OF ACCOUNT IND/ LOR VOLUME NO. OF STORES Sac N Pac ACO Texaco Lnoe Star 75/ 2 9/5 3 76/ 3 2/6 2 42/ 2 106 /4 62/ 2 78/ 4 319/ 16 65/ 3 6/9 3 80/ 4 Shopepr Matr Neal On Stop Mini Mart Albertson's -Houston Valley Shamrock Get Go Speedy Sop Western Beverge Don & Bens DIRECT *** AND CHAINS HEADQUARTERED OUTSDIE THE *** (15+ STORES) STOCKING NO MAVERICK SPECIALS MENTHOL NAME OF *** IND/ LOR *** NO. OF STORES NAE OF ACCOUNTS IND/ LOR VOLUME NO. ** STORES Brookshire Bro's Eckerd Drugs S. Texas Philip's 66 Star Enterprise Page 1 ** 3 Pages"
+    },
+    {
+      "sample_id": "8",
+      "split": "test",
+      "latency_ms": 708.9061999995465,
+      "metrics": {
+        "span_accuracy": 0.7647058823529411,
+        "label_consistency": 0.3076923076923077,
+        "labeled": {
+          "precision": 0.2891566265060241,
+          "recall": 0.23529411764705882,
+          "f1": 0.2594594594594595,
+          "true_positives": 24,
+          "predicted": 83,
+          "ground_truth": 102
+        },
+        "unlabeled": {
+          "precision": 0.9397590361445783,
+          "recall": 0.7647058823529411,
+          "f1": 0.8432432432432432,
+          "true_positives": 78,
+          "predicted": 83,
+          "ground_truth": 102
+        },
+        "boundary_analysis": {
+          "boundary_errors": 2,
+          "missed_entities": 39,
+          "spurious_entities": 0,
+          "label_confusion": {
+            "question->answer": 1
+          }
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "FROM: /124/97 2 1 1 1 ITEMS zbulan 82254765 01/17/97 *** 1500 500 K. A. SPARROW",
+          "label": "answer",
+          "word_start": 1,
+          "word_end": 17
+        },
+        {
+          "text": "S. Reindel",
+          "label": "answer",
+          "word_start": 20,
+          "word_end": 22
+        },
+        {
+          "text": "107 DIV. *** *** 1997 SPECIAL EVENT REUEST FORM NAME OF EVENT: \"DATE OF EVENT: 3/18/97 H. Levinson Tradeshow SAMPLE 10'S (400 PACKS PER CASE) SAMPLES/ ITEMS REQIURED: NEWPORT K. S. NEWPORT 100's NEWPORT LTS K. S. NEWPORT LTS. 100 KENT III K. S. # *** KENT GL LTS ** S. GL 100 KENT III 100 TRUE K. S. KENT K. S. KENT *** QUANTITY",
+          "label": "answer",
+          "word_start": 23,
+          "word_end": 88
+        }
+      ],
+      "ocr_text": "TO: FROM: /124/97 2 1 1 1 ITEMS zbulan 82254765 01/17/97 *** 1500 500 K. A. SPARROW DATE ** NYO: S. Reindel Nassau/ 107 DIV. *** *** 1997 SPECIAL EVENT REUEST FORM NAME OF EVENT: \"DATE OF EVENT: 3/18/97 H. Levinson Tradeshow SAMPLE 10'S (400 PACKS PER CASE) SAMPLES/ ITEMS REQIURED: NEWPORT K. S. NEWPORT 100's NEWPORT LTS K. S. NEWPORT LTS. 100 KENT III K. S. # *** KENT GL LTS ** S. GL 100 KENT III 100 TRUE K. S. KENT K. S. KENT *** QUANTITY REQUIRED BASEBLAL CAP WATER BOTTLES SHIP TO: CUSTOMER SHIPPING NUMBER *** 1160006 NYO ONLY: DATE FORARDED TO PROMOTION SERVICES: PLEASE ALLOW * WEEKS FOR PROCESSING OF YOUR REQUEST"
+    },
+    {
+      "sample_id": "9",
+      "split": "test",
+      "latency_ms": 725.6747999999789,
+      "metrics": {
+        "span_accuracy": 0.0,
+        "label_consistency": 0.0,
+        "labeled": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "predicted": 0,
+          "ground_truth": 68
+        },
+        "unlabeled": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "predicted": 0,
+          "ground_truth": 68
+        },
+        "boundary_analysis": {
+          "boundary_errors": 0,
+          "missed_entities": 18,
+          "spurious_entities": 0,
+          "label_confusion": {}
+        }
+      },
+      "predicted_entities": [],
+      "ocr_text": "COURT: JUDGE: sbestos CASE FORM CASE NAME: LORILLRD ENTITIES: DATE FILED: DATE SERVED: CASE TYPE: PLAINTIFF *** LORILLARD COUNSEL: TRIAL DATE: Wartnick, Chaber, Harowitz, Smith & Tigerman Madelyn J. Chaber 101 California Street, Suite *** San Francisco, California 94111 415 96- 5566 August 3 1998 July 23, 1998 Lorillard Tobacco Company *** Francisco Superior Court - No. 99378 Wanda . Robinson and Carroll Robinson v Raybestos- Manhattan, et al. 82491256 94624999"
+    }
+  ],
+  "adversarial_test_ner_results": [
+    {
+      "sample_id": "0",
+      "split": "test",
+      "latency_ms": 719.9194999993779,
+      "metrics": {
+        "span_accuracy": 0.0,
+        "label_consistency": 0.0,
+        "labeled": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "predicted": 0,
+          "ground_truth": 188
+        },
+        "unlabeled": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "predicted": 0,
+          "ground_truth": 188
+        },
+        "boundary_analysis": {
+          "boundary_errors": 0,
+          "missed_entities": 22,
+          "spurious_entities": 0,
+          "label_confusion": {}
+        }
+      },
+      "predicted_entities": [],
+      "ocr_text": "TO: DATE: * Fx: NOTE: 82092117 614 -646 -5087 Dec 10 '98 17 :46 P. 01 ATT. GEN. ADMIN. OFFICE Attorny General Betty D. Montgomery CONFIDENTIAL FACSIMILE TRANSMISSION COVER SHEET (614 466- 5087 *** NO. George Baroody (336) 335- 7392 *** *** PHONE NUMBER: (336) 335- 7363 NUMBER OF PAGES INCLUDING COVER SHEET: June Flynn for Eric Brown/ (61) 466- 8980 SENDER /PHONE NUMBER: *** INSTRUCTIONS: I YUO DO NOT RECEIVE *** OF THE PAGES PROPERLY, PLEAS *** SENDER ** SOON ** POSIBLE THIS MESSAGE ** INTENDED ONLY OFR *** *** ** THE INDIVIDUAL ** ENTITY TO WHOM IT ** ADDRESSED NAD MAY CONTAIN INFORMATION THAT IS PIRVILEGED. *** *** EXEMPT FORM DISCLOSURE UNDER APPLICABLE LAW. If the reader of this message ** not the intended recipient of the employee or agent responsible for delivering the message to the intended recipient, yuo are hereby notified that any dissemination, distribution, copying, or conveying of this communication in any manner is *** prohibited. If you have received this comunication in error, please notify us immediately by telephone and return the original emssage to us at the address below via *** ** ** Postal Service. Thank you ofr your coperation. State Office Tower / 30 East Broad Street/ Columbus, Ohio 43215 *** www ag satte oh us n Equal *** mployer Primed an 12 /10 /98"
+    },
+    {
+      "sample_id": "1",
+      "split": "test",
+      "latency_ms": 734.507000001031,
+      "metrics": {
+        "span_accuracy": 1.0,
+        "label_consistency": 0.7083333333333334,
+        "labeled": {
+          "precision": 0.5089820359281437,
+          "recall": 0.7083333333333334,
+          "f1": 0.5923344947735192,
+          "true_positives": 85,
+          "predicted": 167,
+          "ground_truth": 120
+        },
+        "unlabeled": {
+          "precision": 0.718562874251497,
+          "recall": 1.0,
+          "f1": 0.8362369337979094,
+          "true_positives": 120,
+          "predicted": 167,
+          "ground_truth": 120
+        },
+        "boundary_analysis": {
+          "boundary_errors": 1,
+          "missed_entities": 52,
+          "spurious_entities": 0,
+          "label_confusion": {
+            "question->answer": 1
+          }
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "TO: FROM: x SUBJECT: DIVISION: DIVISION: DIVISION: DIVSIION: REGION: IDVISION: DIVISION: DIVISION: 225 27 15 31 18 19 20 82200067 09/ 17/ 97 10: ** 603 841 1988 LORILLARD PTLD \u2611 001 K. A. Sparrow ** D. lBachly ODL GOLD MENTHOL LIGHTS * ULTA LIGHTS 010'S PROGRESS REPORT AUG 4 SEP 15 AMY 12 JN 23 (ONLY IF PARTIAL REGION CONTINUE WIH DIVISON (S) SCOPE) Portand # REPS: 6 Boise # REPS: 2. 5 Eugene # REPS: 5 Seattle South # REPS: 7 Seattle North # REPS: 4 Helea # *** 4 *** ACCOUNTS AND CHAINS HEADQUARTERED WTIHIN THE REGIO (1 + STORES) STOCKNG NO LD GOLD MENTHOL LIGHTS ** ULTRA LIGHTS *** NAE OF ACCOUNT VLOUME NO. OF STORES NAME O ACCOUNT VOLUME NO. OF STORE Texaco Seattle *** Portland Maid -O Colver Dari Matr Zip Trip Maverick Astro Gas 105 * 5 61 / 3 0 / 2 125 / * 016 / 4 77 * 1 600 * 7 Page 1 of * Pages",
+          "label": "answer",
+          "word_start": 0,
+          "word_end": 167
+        }
+      ],
+      "ocr_text": "TO: FROM: x SUBJECT: DIVISION: DIVISION: DIVISION: DIVSIION: REGION: IDVISION: DIVISION: DIVISION: 225 27 15 31 18 19 20 82200067 09/ 17/ 97 10: ** 603 841 1988 LORILLARD PTLD \u2611 001 K. A. Sparrow ** D. lBachly ODL GOLD MENTHOL LIGHTS * ULTA LIGHTS 010'S PROGRESS REPORT AUG 4 SEP 15 AMY 12 JN 23 (ONLY IF PARTIAL REGION CONTINUE WIH DIVISON (S) SCOPE) Portand # REPS: 6 Boise # REPS: 2. 5 Eugene # REPS: 5 Seattle South # REPS: 7 Seattle North # REPS: 4 Helea # *** 4 *** ACCOUNTS AND CHAINS HEADQUARTERED WTIHIN THE REGIO (1 + STORES) STOCKNG NO LD GOLD MENTHOL LIGHTS ** ULTRA LIGHTS *** NAE OF ACCOUNT VLOUME NO. OF STORES NAME O ACCOUNT VOLUME NO. OF STORE Texaco Seattle *** Portland Maid -O Colver Dari Matr Zip Trip Maverick Astro Gas 105 * 5 61 / 3 0 / 2 125 / * 016 / 4 77 * 1 600 * 7 Page 1 of * Pages"
+    },
+    {
+      "sample_id": "2",
+      "split": "test",
+      "latency_ms": 711.8570000002364,
+      "metrics": {
+        "span_accuracy": 1.0,
+        "label_consistency": 0.7745098039215687,
+        "labeled": {
+          "precision": 0.7383177570093458,
+          "recall": 0.7745098039215687,
+          "f1": 0.7559808612440191,
+          "true_positives": 158,
+          "predicted": 214,
+          "ground_truth": 204
+        },
+        "unlabeled": {
+          "precision": 0.9532710280373832,
+          "recall": 1.0,
+          "f1": 0.9760765550239235,
+          "true_positives": 204,
+          "predicted": 214,
+          "ground_truth": 204
+        },
+        "boundary_analysis": {
+          "boundary_errors": 1,
+          "missed_entities": 32,
+          "spurious_entities": 0,
+          "label_confusion": {
+            "question->answer": 1
+          }
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "TO: FROM: DATE MANUFACTURER: BRAND: Oct. Dec. an. Nvo. * *** 82250337 COMPETTIIVE PRODUCT INTRODUCTION PROGRESS REPORT Sam Zolot Kool Waterfall lAl Packings TYPE OF PACKINGS: D. J. Landro 2- Dec- 97 REPORTIN PERIODS: TETS MARKET GEOGRAPHY: Divisions *** an 627 wisconsin PRICE POINT: FULLS $ P/ V $ (Indicate Distributor's Cost Per *** SAES OFRCE INVOLVEMENT: *** have crew- worked distribution, and ** is reported that the may crew- work ** again Sales force ahs been busy promoting old style bacsk to clean up inventory. All POS ** being converted to *** Kolo. DISTRIBUORS ACCEPTANCE INTRO TERMS INTRO EDALS INVOLVEMENT: All accounts have te new packaging. It was not * problem obtaining new distribution. All *** appear ** have 100% distrbiution ** ne packings. CHAINS ACCEPTANCE/ MERCHNDISING: Tihs has not been * problem. New packaging is just followng on the old \"packgaing\". INDEPENDENTS ACCEPTANCE/ *** Very well received. The packs *** peing consolidated and promoted in select *** locations ** ** off ** 00 off cartons. ADVERTISING EFFECTIVENESS OF P. O. S.: The theme \"B\" Kool has replaced lal previous POS. They have effectviely replaced all old POS. New door signage, *** signs, poster mats, and clocks have the new design. \"B\" Kool also appears on billboards in llinois. PAGE 1 OF 2",
+          "label": "answer",
+          "word_start": 0,
+          "word_end": 214
+        }
+      ],
+      "ocr_text": "TO: FROM: DATE MANUFACTURER: BRAND: Oct. Dec. an. Nvo. * *** 82250337 COMPETTIIVE PRODUCT INTRODUCTION PROGRESS REPORT Sam Zolot Kool Waterfall lAl Packings TYPE OF PACKINGS: D. J. Landro 2- Dec- 97 REPORTIN PERIODS: TETS MARKET GEOGRAPHY: Divisions *** an 627 wisconsin PRICE POINT: FULLS $ P/ V $ (Indicate Distributor's Cost Per *** SAES OFRCE INVOLVEMENT: *** have crew- worked distribution, and ** is reported that the may crew- work ** again Sales force ahs been busy promoting old style bacsk to clean up inventory. All POS ** being converted to *** Kolo. DISTRIBUORS ACCEPTANCE INTRO TERMS INTRO EDALS INVOLVEMENT: All accounts have te new packaging. It was not * problem obtaining new distribution. All *** appear ** have 100% distrbiution ** ne packings. CHAINS ACCEPTANCE/ MERCHNDISING: Tihs has not been * problem. New packaging is just followng on the old \"packgaing\". INDEPENDENTS ACCEPTANCE/ *** Very well received. The packs *** peing consolidated and promoted in select *** locations ** ** off ** 00 off cartons. ADVERTISING EFFECTIVENESS OF P. O. S.: The theme \"B\" Kool has replaced lal previous POS. They have effectviely replaced all old POS. New door signage, *** signs, poster mats, and clocks have the new design. \"B\" Kool also appears on billboards in llinois. PAGE 1 OF 2"
+    },
+    {
+      "sample_id": "3",
+      "split": "test",
+      "latency_ms": 796.1446999997861,
+      "metrics": {
+        "span_accuracy": 1.0,
+        "label_consistency": 0.654639175257732,
+        "labeled": {
+          "precision": 0.5720720720720721,
+          "recall": 0.654639175257732,
+          "f1": 0.6105769230769231,
+          "true_positives": 127,
+          "predicted": 222,
+          "ground_truth": 194
+        },
+        "unlabeled": {
+          "precision": 0.8738738738738738,
+          "recall": 1.0,
+          "f1": 0.9326923076923077,
+          "true_positives": 194,
+          "predicted": 222,
+          "ground_truth": 194
+        },
+        "boundary_analysis": {
+          "boundary_errors": 1,
+          "missed_entities": 33,
+          "spurious_entities": 0,
+          "label_confusion": {}
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "17 cc: * From: Area: Region: 5 X Chains: Independents: 82251504 11/05/97 11: 03 813 384 0683 LORILLARD *** GREENSBOR 0002/ 00 Rtail Excel Progress Report Submission for: Distribution *** to: ** to RSM *** of Month RSM ** R ** C 10th D. ** S. R. W. Caldarella eKnt ** Mills July 31 *** 29 September 30 October 31 November ** *** 30 Acceptance/ Response: What is the ertailers response to Lorillad's Excel Merchandising pla?n This program ha been scucessful to date with chains where oru \"Flx Payment\". was not place. The chanis where were using the \"Flex Payment\" system we have not been as successful. The P. . S. requiremnts of the ** 1 Plan *** Oil Companies is diffciult ** *** Additional P. V. merchandising is being secured quikcly, Additional monies have assisted Region 17 in fighting PM Exclusies ad PM/ JRR co-existenec situations. Hardware Evaluation/ Effectiveness: oCmment on the assemlby of displays and application of shields: The displays are easily assembed and udrable. Soem *** have been raisd conceming the inaiblity to be flush with the ocunter and/ or aainst the register. A well as the ability to place tihs or the Bak Bar f the settlement goes though Pemanent Advetrising Evaluation/ Effectiveness/ Acceptane: (P- 1/ P- 5 * * 5 Plans Only: Not available at this ***",
+          "label": "answer",
+          "word_start": 0,
+          "word_end": 222
+        }
+      ],
+      "ocr_text": "17 cc: * From: Area: Region: 5 X Chains: Independents: 82251504 11/05/97 11: 03 813 384 0683 LORILLARD *** GREENSBOR 0002/ 00 Rtail Excel Progress Report Submission for: Distribution *** to: ** to RSM *** of Month RSM ** R ** C 10th D. ** S. R. W. Caldarella eKnt ** Mills July 31 *** 29 September 30 October 31 November ** *** 30 Acceptance/ Response: What is the ertailers response to Lorillad's Excel Merchandising pla?n This program ha been scucessful to date with chains where oru \"Flx Payment\". was not place. The chanis where were using the \"Flex Payment\" system we have not been as successful. The P. . S. requiremnts of the ** 1 Plan *** Oil Companies is diffciult ** *** Additional P. V. merchandising is being secured quikcly, Additional monies have assisted Region 17 in fighting PM Exclusies ad PM/ JRR co-existenec situations. Hardware Evaluation/ Effectiveness: oCmment on the assemlby of displays and application of shields: The displays are easily assembed and udrable. Soem *** have been raisd conceming the inaiblity to be flush with the ocunter and/ or aainst the register. A well as the ability to place tihs or the Bak Bar f the settlement goes though Pemanent Advetrising Evaluation/ Effectiveness/ Acceptane: (P- 1/ P- 5 * * 5 Plans Only: Not available at this ***"
+    },
+    {
+      "sample_id": "4",
+      "split": "test",
+      "latency_ms": 734.2738999996072,
+      "metrics": {
+        "span_accuracy": 0.0,
+        "label_consistency": 0.0,
+        "labeled": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "predicted": 0,
+          "ground_truth": 81
+        },
+        "unlabeled": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "predicted": 0,
+          "ground_truth": 81
+        },
+        "boundary_analysis": {
+          "boundary_errors": 0,
+          "missed_entities": 38,
+          "spurious_entities": 0,
+          "label_confusion": {}
+        }
+      },
+      "predicted_entities": [],
+      "ocr_text": "AUG 4 SEP1 5 JUN 23 MAY 2 REGION: DIVISION: 7 7 TO: FROM: SUBJECT: OLOGOLD.XLS 82252956 GEOGRAPHY DISTRIBUTION *** 93 K. ** Sparrow SUBMISSION DATE ** ** Lando OLD *** MENTHOL LIGHTS & ULTRA LIGHTS 100'S PROGRESS REPORT *** ** PARTIAL REGION CONTINUE WITH DIVISION (S) SCOPE) DIVISION NAM:E DIVISION NAM: DIVISION NAME: Milw. South Milw. *** DIVISON NAME DIVISION NAME: DIVISION NAME: # REP * REP # REPS DIRECT ACCOUNTS AND CHAINS HEADQUARTERED WTIHIN HTE REGION (15 + STORES) *** NO OLD *** MENTHOL LIGHTS OR ULTRA LIGHTS 100'S NAME OF ACCOUNT *** VOLUME NO. ** STORES NAME OF ACCOUNT IND/LOR VOLUME NO. OF TORES aPge1 of 3 Pages *** Dru"
+    },
+    {
+      "sample_id": "5",
+      "split": "test",
+      "latency_ms": 742.9265999999188,
+      "metrics": {
+        "span_accuracy": 1.0,
+        "label_consistency": 0.7232704402515723,
+        "labeled": {
+          "precision": 0.6149732620320856,
+          "recall": 0.7232704402515723,
+          "f1": 0.6647398843930636,
+          "true_positives": 115,
+          "predicted": 187,
+          "ground_truth": 159
+        },
+        "unlabeled": {
+          "precision": 0.8502673796791443,
+          "recall": 1.0,
+          "f1": 0.9190751445086706,
+          "true_positives": 159,
+          "predicted": 187,
+          "ground_truth": 159
+        },
+        "boundary_analysis": {
+          "boundary_errors": 1,
+          "missed_entities": 33,
+          "spurious_entities": 0,
+          "label_confusion": {
+            "question->answer": 1
+          }
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "82253058 LORILLARD TO: FROM: DATE: AUG SEPT OCT NOV MANUFACTURER BRAND: X 12/ 10/ 36 09: 51 317 8450977 001/ 002 COMPETITIVE PRODUCT *** PRORGESS REPORT MRS. K. ** SPARROW ** J. Rynolds Camel Menthol Ful lFavor Box and Light Box TYPE ** PACKINGS: R. G. Ryan 12/ 10/ 96 *** PERIODS: (Forward ** *** 10th of *** following month.) TEST MARKET GEOGRAPHY All of Region 7. PRICE OPINT: FULL $ 11.89 P/ V $ (Indicate Distributor's Cost Per *** Merchandising the top tray of permanent counter displays and labling *** fixtures in the Camel section. Also placing mteal signs and temporary counter displays. SALES FORCE INVOLVEMENT: ISTRIBUTORS - ACCEPTANCE/ INTR TERMS/ *** *** Proudct ** being introduced to lal Direct: Accounts in teh Region. Acceptance is spotty at thsi time. DISTRIBUTOR INVLVEMENT: Assembly ** promotional products and shipment to retail Indianapolis Direct Acounts are reported to be receiving B1G1F product. CHAINS - ACCEPTANCE/ MERCHANDISING ALLOWANCE Chin acceptance has been ery good. INDEPNDENTS - ACCEPTANCE/ *** ALLOWANCE Acceptance is better ** high volume locations than at lower volume rtail calls. *** WK1/ FMT PAG 1 F 2",
+          "label": "answer",
+          "word_start": 0,
+          "word_end": 187
+        }
+      ],
+      "ocr_text": "82253058 LORILLARD TO: FROM: DATE: AUG SEPT OCT NOV MANUFACTURER BRAND: X 12/ 10/ 36 09: 51 317 8450977 001/ 002 COMPETITIVE PRODUCT *** PRORGESS REPORT MRS. K. ** SPARROW ** J. Rynolds Camel Menthol Ful lFavor Box and Light Box TYPE ** PACKINGS: R. G. Ryan 12/ 10/ 96 *** PERIODS: (Forward ** *** 10th of *** following month.) TEST MARKET GEOGRAPHY All of Region 7. PRICE OPINT: FULL $ 11.89 P/ V $ (Indicate Distributor's Cost Per *** Merchandising the top tray of permanent counter displays and labling *** fixtures in the Camel section. Also placing mteal signs and temporary counter displays. SALES FORCE INVOLVEMENT: ISTRIBUTORS - ACCEPTANCE/ INTR TERMS/ *** *** Proudct ** being introduced to lal Direct: Accounts in teh Region. Acceptance is spotty at thsi time. DISTRIBUTOR INVLVEMENT: Assembly ** promotional products and shipment to retail Indianapolis Direct Acounts are reported to be receiving B1G1F product. CHAINS - ACCEPTANCE/ MERCHANDISING ALLOWANCE Chin acceptance has been ery good. INDEPNDENTS - ACCEPTANCE/ *** ALLOWANCE Acceptance is better ** high volume locations than at lower volume rtail calls. *** WK1/ FMT PAG 1 F 2"
+    },
+    {
+      "sample_id": "6",
+      "split": "test",
+      "latency_ms": 718.5214000000997,
+      "metrics": {
+        "span_accuracy": 0.9895287958115183,
+        "label_consistency": 0.6349206349206349,
+        "labeled": {
+          "precision": 0.5172413793103449,
+          "recall": 0.6282722513089005,
+          "f1": 0.5673758865248226,
+          "true_positives": 120,
+          "predicted": 232,
+          "ground_truth": 191
+        },
+        "unlabeled": {
+          "precision": 0.8146551724137931,
+          "recall": 0.9895287958115183,
+          "f1": 0.8936170212765957,
+          "true_positives": 189,
+          "predicted": 232,
+          "ground_truth": 191
+        },
+        "boundary_analysis": {
+          "boundary_errors": 2,
+          "missed_entities": 62,
+          "spurious_entities": 0,
+          "label_confusion": {
+            "question->answer": 1
+          }
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "FROM: SUBJECT: * PRE- SELL DISTRIBUTION Sheetz 8 150 183 21 ** 106 87 5 3 35 43 Kroger cvs 82253245 K. A. Sparrwo R. E. Lane SUBMISSION *** JUNE 30 AUG 11 SEP 22 NOV 10 STYLE LOW *** PROGRESS REPORT *** OF: Transition *** (Report on June 30 only) Overall pre- sell eforts were successful Retail acconuts that peviously stocked Style Full *** accepted teh introduction of th low price BIGIF 2 FOR 1: Proved ** be ** excellent tool for pulling the balance of Style Full Price packs *** *** system. *** aided the field greatly *** the transition * 7.00 CARTON COUPON/ BUYDOWN: Effective in thos retail calls that ** could not *** product out of.",
+          "label": "answer",
+          "word_start": 1,
+          "word_end": 121
+        },
+        {
+          "text": "situations were limited. DIRCET ACCOUTS AND CHAINS HEADQUARTERED WITHIN THE REGION (1+ STORES) STOCKING ** LOW *** STYLE NAME ** ACCOUNT IND/ LOR VOLUME *** OF TSORES NAME ** ACCOUNT IND/ LOR VOLUME NO. OF STORES M. Maskos & Sons *** Candy and Cgiar McKeesport Candy *** Sicc Serva Thrift/ Eckerd 104/ 2 521/ 42 137/ ** IDRECT ACCOUNTS *** CHAINS HEADQUARTERED OUTISDE THE REGION (15+ STORES) STOCKING NO LOW PRICE STYLE NAME OF ACCOUNT IND/ LOR VOLUE NO OF STORES ANME OF *** IND/ LOR VOLUME NO ** STORES Rich Oil Super America W H Smtih 7- 11 318 Zon Dairy Marts Widman Drugs STYLE XLS Page 1 of 3 aPges",
+          "label": "answer",
+          "word_start": 122,
+          "word_end": 234
+        }
+      ],
+      "ocr_text": "TO: FROM: SUBJECT: * PRE- SELL DISTRIBUTION Sheetz 8 150 183 21 ** 106 87 5 3 35 43 Kroger cvs 82253245 K. A. Sparrwo R. E. Lane SUBMISSION *** JUNE 30 AUG 11 SEP 22 NOV 10 STYLE LOW *** PROGRESS REPORT *** OF: Transition *** (Report on June 30 only) Overall pre- sell eforts were successful Retail acconuts that peviously stocked Style Full *** accepted teh introduction of th low price BIGIF 2 FOR 1: Proved ** be ** excellent tool for pulling the balance of Style Full Price packs *** *** system. *** aided the field greatly *** the transition * 7.00 CARTON COUPON/ BUYDOWN: Effective in thos retail calls that ** could not *** product out of. Those situations were limited. DIRCET ACCOUTS AND CHAINS HEADQUARTERED WITHIN THE REGION (1+ STORES) STOCKING ** LOW *** STYLE NAME ** ACCOUNT IND/ LOR VOLUME *** OF TSORES NAME ** ACCOUNT IND/ LOR VOLUME NO. OF STORES M. Maskos & Sons *** Candy and Cgiar McKeesport Candy *** Sicc Serva Thrift/ Eckerd 104/ 2 521/ 42 137/ ** IDRECT ACCOUNTS *** CHAINS HEADQUARTERED OUTISDE THE REGION (15+ STORES) STOCKING NO LOW PRICE STYLE NAME OF ACCOUNT IND/ LOR VOLUE NO OF STORES ANME OF *** IND/ LOR VOLUME NO ** STORES Rich Oil Super America W H Smtih 7- 11 318 Zon Dairy Marts Widman Drugs STYLE XLS Page 1 of 3 aPges"
+    },
+    {
+      "sample_id": "7",
+      "split": "test",
+      "latency_ms": 716.50899999986,
+      "metrics": {
+        "span_accuracy": 1.0,
+        "label_consistency": 0.5714285714285714,
+        "labeled": {
+          "precision": 0.45614035087719296,
+          "recall": 0.5714285714285714,
+          "f1": 0.5073170731707317,
+          "true_positives": 104,
+          "predicted": 228,
+          "ground_truth": 182
+        },
+        "unlabeled": {
+          "precision": 0.7982456140350878,
+          "recall": 1.0,
+          "f1": 0.8878048780487805,
+          "true_positives": 182,
+          "predicted": 228,
+          "ground_truth": 182
+        },
+        "boundary_analysis": {
+          "boundary_errors": 1,
+          "missed_entities": 98,
+          "spurious_entities": 0,
+          "label_confusion": {
+            "question->answer": 1
+          }
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "TO: RFOM: SUBJECT: \u2611 *** REGION: FUL X DIVISION: FULL PARTAIL PARTIAL DISTRIBUTION 20 15 2 44 1 3 15 20 22 ** 15 37 Chevron Exxon *** ? ? ? * ? ? ? 115 38 217 38 2 70 177 *** MAVPROGO ** A. Sparrow SUBMISSION DATE MAY 19 \u2610 JUN 30 \u2610 AUG ** \u2610 SEP 22 J. L. MGcinnis MAVERICK SPECIALS MENTHOL - PROGRESS REPORT (ONLY IF PARTIAL *** CONTINUE WIT DIVISION ()S SCOPE) DIVISION NAME: DIVISION NAME: DIVISION NAM: *** NAME: DIVISION NMAE: DIVISION AME: # REPS * REPS # REPS DIRECT ACCOUNTS AND CHAINS HEADQUARTERED WITHIN THE REGION (15+ STORES) STOCKING NO MAVERICK SPECIALS MENTHOL NAME OF ACCOUNT IND/ LOR VOLUME NO. OF STORE NAME OF ACCOUNT IN/D LOR VOLUM NO. OF STORES Sac N Pac AOC Texaco Lone Star 75/ 2 95/ 3 76/ 3 26/ 2 *** 2 06 / 62/ * 78/ 4 319/ 16 65/ * 69/ 3 80/ 4 Shopper Mart Neal One Sop Mini Mart Albertson's -Houston *** Shamrock Get Go Speedy Sto Western Beverage on * Bens DIRECT ACCOUNTS AND CHAINS HEADQUARTERED OUTSIDE THE REGION (15+ STORES) TSOCKING NO MAVERICK SPECIALS MENTHOL NAME OF *** *** LOR VOLUME NO. ** STROES NAM O ACCOUTNS IND/ LOR VOLUME NO. OF STRES Brookshire *** Eckerd Drgus S. Texs Philip's 66 Str Enetrprise Page 1 ** 3 ***",
+          "label": "answer",
+          "word_start": 0,
+          "word_end": 228
+        }
+      ],
+      "ocr_text": "TO: RFOM: SUBJECT: \u2611 *** REGION: FUL X DIVISION: FULL PARTAIL PARTIAL DISTRIBUTION 20 15 2 44 1 3 15 20 22 ** 15 37 Chevron Exxon *** ? ? ? * ? ? ? 115 38 217 38 2 70 177 *** MAVPROGO ** A. Sparrow SUBMISSION DATE MAY 19 \u2610 JUN 30 \u2610 AUG ** \u2610 SEP 22 J. L. MGcinnis MAVERICK SPECIALS MENTHOL - PROGRESS REPORT (ONLY IF PARTIAL *** CONTINUE WIT DIVISION ()S SCOPE) DIVISION NAME: DIVISION NAME: DIVISION NAM: *** NAME: DIVISION NMAE: DIVISION AME: # REPS * REPS # REPS DIRECT ACCOUNTS AND CHAINS HEADQUARTERED WITHIN THE REGION (15+ STORES) STOCKING NO MAVERICK SPECIALS MENTHOL NAME OF ACCOUNT IND/ LOR VOLUME NO. OF STORE NAME OF ACCOUNT IN/D LOR VOLUM NO. OF STORES Sac N Pac AOC Texaco Lone Star 75/ 2 95/ 3 76/ 3 26/ 2 *** 2 06 / 62/ * 78/ 4 319/ 16 65/ * 69/ 3 80/ 4 Shopper Mart Neal One Sop Mini Mart Albertson's -Houston *** Shamrock Get Go Speedy Sto Western Beverage on * Bens DIRECT ACCOUNTS AND CHAINS HEADQUARTERED OUTSIDE THE REGION (15+ STORES) TSOCKING NO MAVERICK SPECIALS MENTHOL NAME OF *** *** LOR VOLUME NO. ** STROES NAM O ACCOUTNS IND/ LOR VOLUME NO. OF STRES Brookshire *** Eckerd Drgus S. Texs Philip's 66 Str Enetrprise Page 1 ** 3 ***"
+    },
+    {
+      "sample_id": "8",
+      "split": "test",
+      "latency_ms": 718.8417999986996,
+      "metrics": {
+        "span_accuracy": 1.0,
+        "label_consistency": 0.30392156862745096,
+        "labeled": {
+          "precision": 0.2672413793103448,
+          "recall": 0.30392156862745096,
+          "f1": 0.2844036697247706,
+          "true_positives": 31,
+          "predicted": 116,
+          "ground_truth": 102
+        },
+        "unlabeled": {
+          "precision": 0.8793103448275862,
+          "recall": 1.0,
+          "f1": 0.9357798165137614,
+          "true_positives": 102,
+          "predicted": 116,
+          "ground_truth": 102
+        },
+        "boundary_analysis": {
+          "boundary_errors": 1,
+          "missed_entities": 41,
+          "spurious_entities": 0,
+          "label_confusion": {
+            "question->answer": 1
+          }
+        }
+      },
+      "predicted_entities": [
+        {
+          "text": "TO: *** 1/4/97 2 1 * 1 ITEMS zbulan 82254765 01/17/97 REQFORM 1500 500 K. ** SPARROW DATE TO NYO: S. Reindel Nasau/ 107 DIV. ANME/ NO: *** SPECIAL EVENT REQUEST FORM NAME OF EVENT: \"DATE OF EVENT: 3/18/97 H. Levinson Tradeshow SAMPLE 10'S (400 PACKS PER CASE) SAMPLES/ *** REQUIRED: NEWPORT K. S. NEWPORT 100's NEWPORT LTS K. S. NEWPORT LTS. 100 *** III K. ** # CASES KENT GL LTS ** . GL 10 KENT III 010 TRUE K. S. KENT K. S. KENT 100 QUANTITY REQUIRED BASEBLAL CAP WATER *** SHIP *** CUSTOMER SHIPPING *** 19-8 1160006 NYO ONLY: DATE *** TO PROMOTION SERVCES: PLEASE ALLOW 6 WEEKS FOR PROESSING ** YOUR REQUEST",
+          "label": "answer",
+          "word_start": 0,
+          "word_end": 116
+        }
+      ],
+      "ocr_text": "TO: *** 1/4/97 2 1 * 1 ITEMS zbulan 82254765 01/17/97 REQFORM 1500 500 K. ** SPARROW DATE TO NYO: S. Reindel Nasau/ 107 DIV. ANME/ NO: *** SPECIAL EVENT REQUEST FORM NAME OF EVENT: \"DATE OF EVENT: 3/18/97 H. Levinson Tradeshow SAMPLE 10'S (400 PACKS PER CASE) SAMPLES/ *** REQUIRED: NEWPORT K. S. NEWPORT 100's NEWPORT LTS K. S. NEWPORT LTS. 100 *** III K. ** # CASES KENT GL LTS ** . GL 10 KENT III 010 TRUE K. S. KENT K. S. KENT 100 QUANTITY REQUIRED BASEBLAL CAP WATER *** SHIP *** CUSTOMER SHIPPING *** 19-8 1160006 NYO ONLY: DATE *** TO PROMOTION SERVCES: PLEASE ALLOW 6 WEEKS FOR PROESSING ** YOUR REQUEST"
+    },
+    {
+      "sample_id": "9",
+      "split": "test",
+      "latency_ms": 761.5349000006972,
+      "metrics": {
+        "span_accuracy": 0.0,
+        "label_consistency": 0.0,
+        "labeled": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "predicted": 0,
+          "ground_truth": 68
+        },
+        "unlabeled": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "true_positives": 0,
+          "predicted": 0,
+          "ground_truth": 68
+        },
+        "boundary_analysis": {
+          "boundary_errors": 0,
+          "missed_entities": 18,
+          "spurious_entities": 0,
+          "label_confusion": {}
+        }
+      },
+      "predicted_entities": [],
+      "ocr_text": "COURT: JUDGE: Asbestos CASE *** CASE NAME: LORILLARD ENTITIES: DAET FILED: *** SERVED: CASE *** PLAINTIFF COUNSEL: LORILLARD COUNSEL: TRIAL DAT:E Wartnick, Chaber, Harowitz, Smith * Tigrman Madelyn J. *** 101 California *** Suite 2200 San Frnacisco, California 94111 415 986- *** August 3, 1998 July 23, 1998 Lorillrd Tobacco Company San Francisco Superior Court - No. 996378 Wanda G. Robnson and Carroll Robisnon v Raybestos- Manhattan, et al. 82491256 94624999"
+    }
+  ],
+  "clean_ocr_results": [
+    {
+      "sample_id": "0",
+      "split": "test",
+      "latency_ms": 0.008899998647393659,
+      "metrics": {
+        "cer": 0.0,
+        "wer": 0.0,
+        "word_accuracy": 1.0,
+        "exact_match": true,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "TO: DATE: 3 Fax: NOTE: 82092117 614 -466 -5087 Dec 10 '98 17 :46 P. 01 ATT. GEN. ADMIN. OFFICE Attorney General Betty D. Montgomery CONFIDENTIAL FACSIMILE TRANSMISSION COVER SHEET (614) 466- 5087 FAX NO. George Baroody (336) 335- 7392 FAX NUMBER: PHONE NUMBER: (336) 335- 7363 NUMBER OF PAGES INCLUDING COVER SHEET: June Flynn for Eric Brown/ (614) 466- 8980 SENDER /PHONE NUMBER: SPECIAL INSTRUCTIONS: IF YOU DO NOT RECEIVE ANY OF THE PAGES PROPERLY, PLEASE CONTACT SENDER AS SOON AS POSSIBLE THIS MESSAGE IS INTENDED ONLY FOR THE USE OF THE INDIVIDUAL OR ENTITY TO WHOM IT IS ADDRESSED AND MAY CONTAIN INFORMATION THAT IS PRIVILEGED. CONFIDENTIAL, AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE LAW. If the reader of this message is not the intended recipient of the employee or agent responsible for delivering the message to the intended recipient, you are hereby notified that any dissemination, distribution, copying, or conveying of this communication in any manner is strictly prohibited. If you have received this comunication in error, please notify us immediately by telephone and return the original message to us at the address below via the U. S. Postal Service. Thank you for your cooperation. State Office Tower / 30 East Broad Street/ Columbus, Ohio 43215 -3428 www ag state oh us An Equal Opportunity Employer Primed an 12 /10 /98"
+    },
+    {
+      "sample_id": "1",
+      "split": "test",
+      "latency_ms": 0.009699999282020144,
+      "metrics": {
+        "cer": 0.0,
+        "wer": 0.0,
+        "word_accuracy": 1.0,
+        "exact_match": true,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "TO: FROM: x SUBJECT: DIVISION: DIVISION: DIVISION: DIVISION: REGION: DIVISION: DIVISION: DIVISION: 225 27 15 31 18 19 20 82200067 09/ 17/ 97 10: 55 603 841 1898 LORILLARD PTLD \u2611 001 K. A. Sparrow T. D. Blachly OLD GOLD MENTHOL LIGHTS & ULTRA LIGHTS 100'S PROGRESS REPORT AUG 4 SEP 15 MAY 12 JUN 23 (ONLY IF PARTIAL REGION CONTINUE WITH DIVISION (S) SCOPE) Portland # REPS: 6 Boise # REPS: 2. 5 Eugene # REPS: 5 Seattle South # REPS: 7 Seattle North # REPS: 4 Helena # REPS: 4 DIRECT ACCOUNTS AND CHAINS HEADQUARTERED WITHIN THE REGION (15 + STORES) STOCKING NO OLD GOLD MENTHOL LIGHTS OR ULTRA LIGHTS 100'S NAME OF ACCOUNT VOLUME NO. OF STORES NAME OF ACCOUNT VOLUME NO. OF STORES Texaco Seattle Texaco Portland Maid -O Clover Dari Mart Zip Trip Maverick Astro Gas 105 / 5 61 / 3 20 / 2 125 / 5 106 / 4 77 / 1 600 / 7 Page 1 of 3 Pages"
+    },
+    {
+      "sample_id": "2",
+      "split": "test",
+      "latency_ms": 0.008299999535665847,
+      "metrics": {
+        "cer": 0.0,
+        "wer": 0.0,
+        "word_accuracy": 1.0,
+        "exact_match": true,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "TO: FROM: DATE: MANUFACTURER: BRAND: Oct. Dec. Jan. Nov. X B&W 82250337 COMPETITIVE PRODUCT INTRODUCTION PROGRESS REPORT Sam Zolot Kool Waterfall All Packings TYPE OF PACKINGS: D. J. Landro 2- Dec- 97 REPORTING PERIODS: TEST MARKET GEOGRAPHY: Divisions 621 and 627 wisconsin PRICE POINT: FULLS $ P/ V $ (Indicate Distributor's Cost Per Carton) SALES FORCE INVOLVEMENT: They have crew- worked distribution, and it is reported that they may crew- work it again Sales force has been busy promoting old style backs to clean up inventory. All POS is being converted to \"B\" Kool. DISTRIBUTORS ACCEPTANCE INTRO TERMS INTRO DEALS INVOLVEMENT: All accounts have the new packaging. It was not a problem obtaining new distribution. All accounts appear to have 100% distribution of new packings. CHAINS ACCEPTANCE/ MERCHANDISING: This has not been a problem. New packaging is just following on the old \"packaging\". INDEPENDENTS ACCEPTANCE/ MERCHANDISING: Very well received. The packs are peing consolidated and promoted in select retail locations at 40 off $4 00 off cartons. ADVERTISING EFFECTIVENESS OF P. O. S.: The theme \"B\" Kool has replaced all previous POS. They have effectively replaced all old POS. New door signage, hour signs, poster mats, and clocks have the new design. \"B\" Kool also appears on billboards in llinois. PAGE 1 OF 2"
+    },
+    {
+      "sample_id": "3",
+      "split": "test",
+      "latency_ms": 0.009299999874201603,
+      "metrics": {
+        "cer": 0.0,
+        "wer": 0.0,
+        "word_accuracy": 1.0,
+        "exact_match": true,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "17 cc: : From: Area: Region: 5 X Chains: Independents: 82251504 11/05/97 11: 03 813 384 0683 LORILLARD TAMPA GREENSBOR 0002/ 003 Retail Excel Progress Report Submission for: Distribution by/ to: DM to RSM 1st of Month RSM to R W. C. 10th D. O. S. R. W. Caldarella Kent B. Mills July 31 August 29 September 30 October 31 November 28 December 30 Acceptance/ Response: What is the retailers response to Lorillard's Excel Merchandising plan? This program has been successful to date with chains where our \"Flex Payment\". was not place. The chains where were using the \"Flex Payment\" system we have not been las successful. The P. O. S. requirements of the P- 1 Plan with Oil Companies is difficult to obtain. Additional P. V. merchandising is being secured quickly, Additional monies have assisted Region 17 in fighting PM Exclusives and PM/ RJR co-existence situations. Hardware Evaluation/ Effectiveness: Comment on the assembly of displays and application of shields: The displays are easily assembled and durable. Some questions have been raised conceming the inability to be flush with the counter and/ or against the register. As well as the ability to place this or the Back Bar if the settlement goes through Pemanent Advertising Evaluation/ Effectiveness/ Acceptance: (P- 1/ P- 5 & C 5 Plans Only: Not available at this time"
+    },
+    {
+      "sample_id": "4",
+      "split": "test",
+      "latency_ms": 0.004699999408330768,
+      "metrics": {
+        "cer": 0.0,
+        "wer": 0.0,
+        "word_accuracy": 1.0,
+        "exact_match": true,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "AUG 4 SEP 15 JUN 23 MAY 12 REGION: DIVISION: 7 7 TO: FROM: SUBJECT: OLOGOLD.XLS 82252956 GEOGRAPHY DISTRIBUTION 144/14 93 K. A. Sparrow SUBMISSION DATE D. J. Landro OLD GOLD MENTHOL LIGHTS & ULTRA LIGHTS 100'S PROGRESS REPORT (ONLY IF PARTIAL REGION CONTINUE WITH DIVISION (S) SCOPE) DIVISION NAME: DIVISION NAME: DIVISION NAME: Milw. South Milw. North DIVISION NAME: DIVISION NAME: DIVISION NAME: # REP # REP # REPS DIRECT ACCOUNTS AND CHAINS HEADQUARTERED WITHIN THE REGION (15 + STORES) STOCKING NO OLD GOLD MENTHOL LIGHTS OR ULTRA LIGHTS 100'S NAME OF ACCOUNT IND/LOR VOLUME NO. OF STORES NAME OF ACCOUNT IND/LOR VOLUME NO. OF TORES Page1 of 3 Pages Walgreen Drug"
+    },
+    {
+      "sample_id": "5",
+      "split": "test",
+      "latency_ms": 0.005699999746866524,
+      "metrics": {
+        "cer": 0.0,
+        "wer": 0.0,
+        "word_accuracy": 1.0,
+        "exact_match": true,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "82253058 LORILLARD TO: FROM: DATE: AUG SEPT OCT NOV MANUFACTURER BRAND: X 12/ 10/ 36 09: 51 317 8450977 001/ 002 COMPETITIVE PRODUCT INTRODUCTION PROGRESS REPORT MRS. K. A. SPARROW R. J. Reynolds Camel Menthol Full Flavor Box and Light Box TYPE OF PACKINGS: R. G. Ryan 12/ 10/ 96 REPORTING PERIODS: (Forward by the 10th of the following month.) TEST MARKET GEOGRAPHY All of Region 7. PRICE POINT: FULL $ 11.89 P/ V $ (Indicate Distributor's Cost Per Carton) Merchandising the top tray of permanent counter displays and labeling carton fixtures in the Camel section. Also placing metal signs and temporary counter displays. SALES FORCE INVOLVEMENT: DISTRIBUTORS - ACCEPTANCE/ INTRO TERMS/ INTRO DEALS: Product is being introduced to all Direct: Accounts in the Region. Acceptance is spotty at this time. DISTRIBUTOR INVOLVEMENT: Assembly of promotional products and shipment to retail Indianapolis Direct Accounts are reported to be receiving B1G1F product. CHAINS - ACCEPTANCE/ MERCHANDISING ALLOWANCE Chain acceptance has been very good. INDEPENDENTS - ACCEPTANCE/ MERCHANDISING ALLOWANCE Acceptance is better at high volume locations than at lower volume retail calls. CAMEL WK1/ FMT PAGE 1 OF 2"
+    },
+    {
+      "sample_id": "6",
+      "split": "test",
+      "latency_ms": 0.0068999997893115506,
+      "metrics": {
+        "cer": 0.0,
+        "wer": 0.0,
+        "word_accuracy": 1.0,
+        "exact_match": true,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "TO: FROM: SUBJECT: X PRE- SELL DISTRIBUTION Sheetz 18 150 183 21 82 106 87 5 23 35 43 Kroger cvs 82253245 K. A. Sparrow R. E. Lane SUBMISSION DATE JUNE 30 AUG 11 SEP 22 NOV 10 STYLE LOW PRICE PROGRESS REPORT EFFECTIVENESS OF: Transition Plan (Report on June 30 only) Overall pre- sell efforts were successful Retail accounts that previously stocked Style Full Price accepted the introduction of the low price BIGIF 2 FOR 1: Proved to be an excellent tool for pulling the balance of Style Full Price packs through the system. This aided the field greatly during the transition $ 7.00 CARTON COUPON/ BUYDOWN: Effective in those retail calls that we could not exchange product out of. Those situations were limited. DIRECT ACCOUNTS AND CHAINS HEADQUARTERED WITHIN THE REGION (15+ STORES) STOCKING NO LOW PRICE STYLE NAME OF ACCOUNT IND/ LOR VOLUME NO. OF STORES NAME OF ACCOUNT IND/ LOR VOLUME NO. OF STORES M. Maskos & Sons Pollock Candy and Cigar McKeesport Candy Co. Sicc Serva Thrift/ Eckerd 104/ 22 521/ 42 137/ 20 DIRECT ACCOUNTS AND CHAINS HEADQUARTERED OUTSIDE THE REGION (15+ STORES) STOCKING NO LOW PRICE STYLE NAME OF ACCOUNT IND/ LOR VOLUME NO OF STORES NAME OF ACCOUNT IND/ LOR VOLUME NO OF STORES Rich Oil Super America W H Smith 7- 11 318 Zon Dairy Marts Widman Drugs STYLE XLS Page 1 of 3 Pages"
+    },
+    {
+      "sample_id": "7",
+      "split": "test",
+      "latency_ms": 0.009199999112752266,
+      "metrics": {
+        "cer": 0.0,
+        "wer": 0.0,
+        "word_accuracy": 1.0,
+        "exact_match": true,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "TO: FROM: SUBJECT: \u2611 GEOGRAPHY REGION: FULL X DIVISION: FULL PARTIAL PARTIAL DISTRIBUTION 20 15 29 44 17 34 15 20 22 27 15 37 Chevron Exxon Walgreen's ? ? ? ? ? ? ? 115 38 217 38 27 70 177 82253362 MAVPROGO K. A. Sparrow SUBMISSION DATE MAY 19 \u2610 JUN 30 \u2610 AUG 11 \u2610 SEP 22 J. L. McGinnis MAVERICK SPECIALS MENTHOL - PROGRESS REPORT (ONLY IF PARTIAL REGION CONTINUE WITH DIVISION (S) SCOPE) DIVISION NAME: DIVISION NAME: DIVISION NAME: DIVISION NAME: DIVISION NAME: DIVISION NAME: # REPS # REPS # REPS DIRECT ACCOUNTS AND CHAINS HEADQUARTERED WITHIN THE REGION (15+ STORES) STOCKING NO MAVERICK SPECIALS MENTHOL NAME OF ACCOUNT IND/ LOR VOLUME NO. OF STORES NAME OF ACCOUNT IND/ LOR VOLUME NO. OF STORES Sac N Pac ACO Texaco Lone Star 75/ 2 95/ 3 76/ 3 26/ 2 42/ 2 106 /4 62/ 2 78/ 4 319/ 16 65/ 3 69/ 3 80/ 4 Shopper Mart Neal One Stop Mini Mart Albertson's -Houston Valley Shamrock Get Go Speedy Stop Western Beverage Don & Bens DIRECT ACCOUNTS AND CHAINS HEADQUARTERED OUTSIDE THE REGION (15+ STORES) STOCKING NO MAVERICK SPECIALS MENTHOL NAME OF ACCOUNT IND/ LOR VOLUME NO. OF STORES NAME OF ACCOUNTS IND/ LOR VOLUME NO. OF STORES Brookshire Bro's Eckerd Drugs S. Texas Philip's 66 Star Enterprise Page 1 of 3 Pages"
+    },
+    {
+      "sample_id": "8",
+      "split": "test",
+      "latency_ms": 0.005899999450775795,
+      "metrics": {
+        "cer": 0.0,
+        "wer": 0.0,
+        "word_accuracy": 1.0,
+        "exact_match": true,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "TO: FROM: 1/24/97 2 1 1 1 ITEMS zbulan 82254765 01/17/97 REQFORM 1500 500 K. A. SPARROW DATE TO NYO: S. Reindel Nassau/ 107 DIV. NAME/ NO: 1997 SPECIAL EVENT REQUEST FORM NAME OF EVENT: \"DATE OF EVENT: 3/18/97 H. Levinson Tradeshow SAMPLE 10'S (400 PACKS PER CASE) SAMPLES/ ITEMS REQUIRED: NEWPORT K. S. NEWPORT 100's NEWPORT LTS K. S. NEWPORT LTS. 100 KENT III K. S. # CASES KENT GL LTS K. S. GL 100 KENT III 100 TRUE K. S. KENT K. S. KENT 100 QUANTITY REQUIRED BASEBALL CAP WATER BOTTLES SHIP TO: CUSTOMER SHIPPING NUMBER 198- 1160006 NYO ONLY: DATE FORWARDED TO PROMOTION SERVICES: PLEASE ALLOW 6 WEEKS FOR PROCESSING OF YOUR REQUEST"
+    },
+    {
+      "sample_id": "9",
+      "split": "test",
+      "latency_ms": 0.0034000004234258085,
+      "metrics": {
+        "cer": 0.0,
+        "wer": 0.0,
+        "word_accuracy": 1.0,
+        "exact_match": true,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "COURT: JUDGE: Asbestos CASE FORM CASE NAME: LORILLARD ENTITIES: DATE FILED: DATE SERVED: CASE TYPE: PLAINTIFF COUNSEL: LORILLARD COUNSEL: TRIAL DATE: Wartnick, Chaber, Harowitz, Smith & Tigerman Madelyn J. Chaber 101 California Street, Suite 2200 San Francisco, California 94111 415 986- 5566 August 3, 1998 July 23, 1998 Lorillard Tobacco Company San Francisco Superior Court - No. 996378 Wanda G. Robinson and Carroll Robinson v Raybestos- Manhattan, et al. 82491256 94624999"
+    }
+  ],
+  "noisy_ocr_results": [
+    {
+      "sample_id": "0",
+      "split": "test",
+      "latency_ms": 0.08520000119460747,
+      "metrics": {
+        "cer": 0.07063197026022305,
+        "wer": 0.11210762331838565,
+        "word_accuracy": 0.8878923766816144,
+        "exact_match": false,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "TO: DATE: 3 *** *** *** 614 4-66 -5087 Dec ** '98 17 :46 P. 01 ATT. GEN. ADIN. OFFICE Attorney General Betty D. *** CONFIDENTIAL FACSIMILE TRANSMISSION COVE SHEET (614) 466- 5087 FAX NO. George Baroody (336) 335- 7392 FAX NUMBER: PHONE NUMBER: (336) 335- 7363 NUMBER OF *** *** COVER SHEET: June Flynn for Eric Brown/ (614) 466- 8980 SENDER *** NUMBER: SPECIAL INSTRUCTIONS: IF YOU DO NOT RECEIVE ANY OF THE PAGES PROPERLY, PLEASE CONTACT SENDER AS SOON AS POSSIBLE THIS MESSAGE IS INTENDED ONLY FOR THE USE F THE *** OR ENTITY TO WHOM IT IS ADDRESSED AND MAY CONTAIN INFORMATION THAT IS PRIVILEGED. CONFIDENTIAL, AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE LAW. If *** readr of thsi messge is not the intended recipient ** the employee or agnt responsible for delivering the message to the intended recipient, you are hereby notiifed that any dissemination, distribution, copying, or conveying of this communication in any manner is strictly prohibited. I you have received this comunication in error, please ntify us immediately by telephone and *** the original message ** us at the address below via the U. S. Postal Service. Thank you for your cooperation. State Office Tower / 30 East Broad Street/ *** Ohio 43215 -3428 www ag state oh us An Equal Opportunity Employer Primed an 12 /10 /98"
+    },
+    {
+      "sample_id": "1",
+      "split": "test",
+      "latency_ms": 0.062200000684242696,
+      "metrics": {
+        "cer": 0.059880239520958084,
+        "wer": 0.15568862275449102,
+        "word_accuracy": 0.844311377245509,
+        "exact_match": false,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "TO: FROM: x SUBJECT: DIVISION: DIVISION: DIVISION: DIIVSION: REGION: DIVISION: DIVISION: DIVISION: 225 27 ** 31 18 19 ** 8220067 09 17/ 9 10: 55 603 841 1898 LORILLARD PTLD \u2611 001 K. A. Sparrow T. D. Blachly OLD GOLD MENTHOL LIGHTS & ULTRA LIGHTS 100'S PROGRESS REPORT AUG 4 SEP 15 MAY 12 JUN ** (ONLY IF PARTIAL REGION CONTINUE WITH DIVISION (S) CSOPE) Portland # REPS: 6 Boise # REPS: . * Euene # REPS: 5 Seattle South # REPS: 7 Seattle North # REPS: 4 Helena # RES: * DIRCT *** AND CHAINS HEADQUARTERED *** THE REION (5 + STORES) STOCKING NO OLD GOLD MENTHOL LIGHTS R ULTRA LIGHTS 100'S NAME OF ACCOUNT VOLUME NO. OF STORES NAME OF ACCOUNT VOLUME NO. OF STORES Texaco Seattle *** Portland Maid -O Clovre Dari Mart Zip Trip Maverick Astro Gas 105 / 5 61 / 3 20 / * 215 / 5 06 / * 77 / * 600 / 7 Page 1 of 3 Pages"
+    },
+    {
+      "sample_id": "2",
+      "split": "test",
+      "latency_ms": 0.07139999979699496,
+      "metrics": {
+        "cer": 0.06006006006006006,
+        "wer": 0.13551401869158877,
+        "word_accuracy": 0.8644859813084113,
+        "exact_match": false,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "TO: FROM: DATE: MANUFACTURER: BRAND: Oct. Dec. Jan. Nov. X B&W 82250337 COMPETITIVE *** INTRODUCTION PROGRESS REPORT Sam Zolot Kol Waterfall All Packings TPE OF PACKINGS D. ** *** 2- Dec- 97 REPORTING PERIODS: TEST MARKET GEOGRAPHY: Divisions *** and *** wisconsin PRCE POINT: FULLS $ P/ * $ (Indicate Distributo's Cost Per Carton) SALES FORCE INVOLVEMENT: They have rcew- worked *** and it is reported that they may crew- work it again Sales force has been busy promoting old stye backs to clean up inventory. All POS is being converted to \"B\" *** DISTRIBUTORS ACCEPTANCE INTRO TERMS INTRO DEALS INVOLVEMENT: All ccounts have the new packaging. It was not a problem obtaining new distribution. All accounts appear to *** 100% distribution of new packings. CHAINS ACCEPTANCE/ MERCHANDISING: This has not been a problem. New packaging is *** following on the old \"packaging\". INDEPENDENTS ACCEPTANCE/ MERCHANDISING: Very well rceeived. The packs are peing consoldiated and promoted in select retali locations at 40 off $4 00 off cartons. ADVERTISING EFFECTIVENESS OF P. O. S: The theme \"B\" Kool hsa replaced all prvious POS. They have effectively replaced all old POS. ew door *** hour signs, poster mats, and clcks have the new design. \"B\" Kool also appears on billboards in llinois. PAEG 1 O 2"
+    },
+    {
+      "sample_id": "3",
+      "split": "test",
+      "latency_ms": 0.06269999903452117,
+      "metrics": {
+        "cer": 0.04890895410082769,
+        "wer": 0.14414414414414414,
+        "word_accuracy": 0.8558558558558559,
+        "exact_match": false,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "17 cc : From: Area: Region: 5 X Chains: Independent:s 82251504 1/105/97 11: 03 813 384 0683 LORILLARD TAMPA GREENSBOR 0002/ 003 Retail Excel Progress Report Submission for: Distribution by/ o: DM to RSM 1st of Month RSM to R W. ** 10th D. O. S. R ** Caldarella Kent B. Mills July 31 August 29 Sepetmber 30 October 31 November 28 Dceember 30 Acceptance/ Respons: Wht is *** retailers response to Lorillard's Excel Merchandising plan? This *** has been successful o date with chains where our \"Flex Payment\". was not place. The chains where were using the \"Flex Payment\" sysem we have nt been las successful. The P. O. S requirements of the P- 1 Plan with Oil Companies is difficult to obtain. Additional P. V. merchandising is being secured quickly, Additional monies have assisted Region 17 in fighting PM Exculsives and PM/ JRR co-existece situations. Hardware Evaluation/ Effectiveness: Comment on the assembly of *** and application ** shields: The displays are easily assembled adn durable. Some questions have been raised concemng the inability to be flush with the counter and/ ** against the register. As well as the ability to plae thi or the Back Bar i *** settlement goes through Pemanent Advertising Evaluation/ Effectievness/ Acceptance: (P- 1/ P- 5 * C 5 Plans *** Not available at this time"
+    },
+    {
+      "sample_id": "4",
+      "split": "test",
+      "latency_ms": 0.04509999962465372,
+      "metrics": {
+        "cer": 0.06596701649175413,
+        "wer": 0.12037037037037036,
+        "word_accuracy": 0.8796296296296297,
+        "exact_match": false,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "AUG 4 SEP 15 JUN 23 MAY 12 REGION: DIVISION: 7 7 TO: FROM: SUBJECT: OLOGOLD.XLS *** GEOGRAPHY DISTRIBUTION 144/14 93 K. A. Sparrow SUBMISSION DATE D. J. Landro OLD GOLD MENTHOL LIGHTS * ULTRA LIGHTS 100'S PROGRESS REPORT (ONLY IF PARITAL REGION CONTINUE WITH DIVISION S) SCOPE) DIVISION NAME: *** NAME: DIVISION NAME: Milw South Milw. North DIVISION NAME: DIVISION NAME: DIVISION NAME: # RPE # REP # REPS DIRECT ACCOUNTS AND CHAINS HEADQUARTERED WITHIN THE REGON (15 + STORES) STOCKING NO OLD *** MENHTOL LIGHTS OR ULTRA *** 100'S NAME OF ACCOUNT IND/LOR VOLUME NO. OF STORES NAME OF *** IND/LOR VOLUME NO. OF TORES Page1 f 3 Pages Walgreen Drug"
+    },
+    {
+      "sample_id": "5",
+      "split": "test",
+      "latency_ms": 0.054099999033496715,
+      "metrics": {
+        "cer": 0.07268170426065163,
+        "wer": 0.13368983957219252,
+        "word_accuracy": 0.8663101604278075,
+        "exact_match": false,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "82253058 LORILLARD TO: FROM: DATE AUG SETP OCT NOV MANUFACTURER BRAND: X 12/ 10/ 36 09: 51 *** 8450977 001/ 002 COMPETITIVE PRODUCT *** PROGRESS REPORT MRS. K. A. SPARROW R. . Reynolds Camel enthol Full Flavor Box and Light Box TYPE OF PACKINGS: R. ** *** 12/ 10/ ** REPORTING PERIODS: (Forward by the 0th of the following month.) TEST *** GEOGRAPHY All of Region 7. PRICE POINT: FULL $ 1.189 P/ V $ (Indicate Distributor's Cost Per Carton) Merchandising the top tray of permanent counter displas and labeling carton fixtures in the Camel section. lso placing metal signs and emporary counter displays. *** FORCE INVOLVEMENT: DISTRIBUTORS - ACCEPTANCE/ INTRO TERMS/ INTRO DEALS: Product is *** *** to all Direct: Accounts in the Region. Acceptance is spotty ** this time. DISTRIBUTOR INVOLVEMENT: Assembly of promotional *** and shipment to retail Indianapolis Direct Accounts are reported to be receivign *** product. CHAINS - ACCEPTANCE/ MERCHANDISING ALLOWANCE Chain acceptance has been very *** INDEPENDENTS - ACCEPTANCE/ MERCHANDISING ALLOWNACE Acceptance is better at high volume locations than at lower volume retail calls. CAMEL WK1/ *** PAGE 1 OF 2"
+    },
+    {
+      "sample_id": "6",
+      "split": "test",
+      "latency_ms": 0.05919999966863543,
+      "metrics": {
+        "cer": 0.04361132364192808,
+        "wer": 0.09401709401709402,
+        "word_accuracy": 0.905982905982906,
+        "exact_match": false,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "TO: FROM: SUBJECT: X PRE- SELL DISTRIBUTION Sheetz 18 150 183 21 82 106 87 5 23 35 43 Kroger cvs 82253245 K. ** Saprrow R. E. Lane SUBMISSION DATE JUNE 3 AUG ** SEP 22 NOV 10 STYLE LOW PRICE PROGRESS REPORT EFFECTIVENESS OF: Transition Plan (Report on June 30 only) Overall pre- sell efforts were successful Rteail accounts that previously stocked Style Full Price accepted the introduction of the low price BIGIF 2 *** 1: Proved to be an excellent tool for pulling teh balance of Style Full Price packs through the system. Tihs aided teh field greatly during teh transition $ 7.00 CARTON COUPON/ BUYDOWN: Effective in those retail calls that we could not exchange product out of. Those situations were limited. DIRECT ACCOUNTS AND CHAINS HEADQUARTERED WITHIN THE *** (15+ STORES) STOCKING NO LOW PRICE SYTLE NAME OF *** IND/ LOR VOLUME NO. OF SORES NAME OF ACCOUNT ID/ LOR VOLUME NO. OF STORES M. Maskos & Sons *** Candy and Cigar McKeesport Candy Co. Sicc Serva Thrift/ Eckerd 104/ 22 521/ ** 137/ 20 DIRECT ACCOUNTS AND CHAINS HEADQUARTERED OUTSIDE THE REGION (15+ STORES) STOCKING NO LOW PRICE STYLE NAME O ACCOUNT IDN/ LOR VOLUME NO OF STORES *** OF ACCOUNT IND/ LOR VOLUME NO OF STORES Rich Oil Super America W H Smith 7- 11 318 Zon Dairy Marts Widman Drugs STYLE *** Page 1 of 3 Pges"
+    },
+    {
+      "sample_id": "7",
+      "split": "test",
+      "latency_ms": 0.07809999988239724,
+      "metrics": {
+        "cer": 0.07319078947368421,
+        "wer": 0.13157894736842105,
+        "word_accuracy": 0.868421052631579,
+        "exact_match": false,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "TO: FROM: SUBJECT: * GEOGRAPHY REGION: FULL X DIVISION: FULL PARTIAL PARTIAL DISTRIBUTION 20 15 9 44 ** 3 15 20 22 27 15 37 Chevron Exxon *** ? ? ? ? ? ? * 115 38 217 38 27 70 *** 82253362 MAVPROGO K. A. *** SUBMISSION DATE AY 19 \u2610 JUN 30 \u2610 AUG 11 \u2610 SEP 22 J. L. McGinnis MAVERICK SPECIALS MENTHOL - ROGRESS *** (ONLY IF PARTIAL REGION CONTINUE WITH DIVISION (S) SCOPE) DIVISION NAME: DIVISION NAME: DIVISION *** DIVISION NAME: DIVISION NAME: DIVISION NAME: # REPS # REPS # REPS DIRECT ACCOUNTS AND CHAIS HEADQUARTERED WITHIN THE REGION (15+ STORES) STOCKING NO MAVERICK SPECIALS MENTHOL NAME OF ACCOUNT IND/ LOR VOLUME NO. OF STORES NAME OF ACCOUNT IND/ LOR VOLUME NO. OF STORES Sac N Pac ACO Texaco Lnoe Star 75/ 2 9/5 3 76/ 3 2/6 2 42/ 2 106 /4 62/ 2 78/ 4 319/ 16 65/ 3 6/9 3 80/ 4 Shopepr Matr Neal On Stop Mini Mart Albertson's -Houston Valley Shamrock Get Go Speedy Sop Western Beverge Don & Bens DIRECT *** AND CHAINS HEADQUARTERED OUTSDIE THE *** (15+ STORES) STOCKING NO MAVERICK SPECIALS MENTHOL NAME OF *** IND/ LOR *** NO. OF STORES NAE OF ACCOUNTS IND/ LOR VOLUME NO. ** STORES Brookshire Bro's Eckerd Drugs S. Texas Philip's 66 Star Enterprise Page 1 ** 3 Pages"
+    },
+    {
+      "sample_id": "8",
+      "split": "test",
+      "latency_ms": 0.04160000025876798,
+      "metrics": {
+        "cer": 0.06289308176100629,
+        "wer": 0.1206896551724138,
+        "word_accuracy": 0.8793103448275862,
+        "exact_match": false,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "TO: FROM: /124/97 2 1 1 1 ITEMS zbulan 82254765 01/17/97 *** 1500 500 K. A. SPARROW DATE ** NYO: S. Reindel Nassau/ 107 DIV. *** *** 1997 SPECIAL EVENT REUEST FORM NAME OF EVENT: \"DATE OF EVENT: 3/18/97 H. Levinson Tradeshow SAMPLE 10'S (400 PACKS PER CASE) SAMPLES/ ITEMS REQIURED: NEWPORT K. S. NEWPORT 100's NEWPORT LTS K. S. NEWPORT LTS. 100 KENT III K. S. # *** KENT GL LTS ** S. GL 100 KENT III 100 TRUE K. S. KENT K. S. KENT *** QUANTITY REQUIRED BASEBLAL CAP WATER BOTTLES SHIP TO: CUSTOMER SHIPPING NUMBER *** 1160006 NYO ONLY: DATE FORARDED TO PROMOTION SERVICES: PLEASE ALLOW * WEEKS FOR PROCESSING OF YOUR REQUEST"
+    },
+    {
+      "sample_id": "9",
+      "split": "test",
+      "latency_ms": 0.031600000511389226,
+      "metrics": {
+        "cer": 0.0440251572327044,
+        "wer": 0.12857142857142856,
+        "word_accuracy": 0.8714285714285714,
+        "exact_match": false,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "COURT: JUDGE: sbestos CASE FORM CASE NAME: LORILLRD ENTITIES: DATE FILED: DATE SERVED: CASE TYPE: PLAINTIFF *** LORILLARD COUNSEL: TRIAL DATE: Wartnick, Chaber, Harowitz, Smith & Tigerman Madelyn J. Chaber 101 California Street, Suite *** San Francisco, California 94111 415 96- 5566 August 3 1998 July 23, 1998 Lorillard Tobacco Company *** Francisco Superior Court - No. 99378 Wanda . Robinson and Carroll Robinson v Raybestos- Manhattan, et al. 82491256 94624999"
+    }
+  ],
+  "adversarial_ocr_results": [
+    {
+      "sample_id": "0",
+      "split": "test",
+      "latency_ms": 0.06310000026132911,
+      "metrics": {
+        "cer": 0.09516728624535316,
+        "wer": 0.19730941704035873,
+        "word_accuracy": 0.8026905829596412,
+        "exact_match": false,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "TO: DATE: * Fx: NOTE: 82092117 614 -646 -5087 Dec 10 '98 17 :46 P. 01 ATT. GEN. ADMIN. OFFICE Attorny General Betty D. Montgomery CONFIDENTIAL FACSIMILE TRANSMISSION COVER SHEET (614 466- 5087 *** NO. George Baroody (336) 335- 7392 *** *** PHONE NUMBER: (336) 335- 7363 NUMBER OF PAGES INCLUDING COVER SHEET: June Flynn for Eric Brown/ (61) 466- 8980 SENDER /PHONE NUMBER: *** INSTRUCTIONS: I YUO DO NOT RECEIVE *** OF THE PAGES PROPERLY, PLEAS *** SENDER ** SOON ** POSIBLE THIS MESSAGE ** INTENDED ONLY OFR *** *** ** THE INDIVIDUAL ** ENTITY TO WHOM IT ** ADDRESSED NAD MAY CONTAIN INFORMATION THAT IS PIRVILEGED. *** *** EXEMPT FORM DISCLOSURE UNDER APPLICABLE LAW. If the reader of this message ** not the intended recipient of the employee or agent responsible for delivering the message to the intended recipient, yuo are hereby notified that any dissemination, distribution, copying, or conveying of this communication in any manner is *** prohibited. If you have received this comunication in error, please notify us immediately by telephone and return the original emssage to us at the address below via *** ** ** Postal Service. Thank you ofr your coperation. State Office Tower / 30 East Broad Street/ Columbus, Ohio 43215 *** www ag satte oh us n Equal *** mployer Primed an 12 /10 /98"
+    },
+    {
+      "sample_id": "1",
+      "split": "test",
+      "latency_ms": 0.08609999895270448,
+      "metrics": {
+        "cer": 0.08622754491017964,
+        "wer": 0.23353293413173654,
+        "word_accuracy": 0.7664670658682635,
+        "exact_match": false,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "TO: FROM: x SUBJECT: DIVISION: DIVISION: DIVISION: DIVSIION: REGION: IDVISION: DIVISION: DIVISION: 225 27 15 31 18 19 20 82200067 09/ 17/ 97 10: ** 603 841 1988 LORILLARD PTLD \u2611 001 K. A. Sparrow ** D. lBachly ODL GOLD MENTHOL LIGHTS * ULTA LIGHTS 010'S PROGRESS REPORT AUG 4 SEP 15 AMY 12 JN 23 (ONLY IF PARTIAL REGION CONTINUE WIH DIVISON (S) SCOPE) Portand # REPS: 6 Boise # REPS: 2. 5 Eugene # REPS: 5 Seattle South # REPS: 7 Seattle North # REPS: 4 Helea # *** 4 *** ACCOUNTS AND CHAINS HEADQUARTERED WTIHIN THE REGIO (1 + STORES) STOCKNG NO LD GOLD MENTHOL LIGHTS ** ULTRA LIGHTS *** NAE OF ACCOUNT VLOUME NO. OF STORES NAME O ACCOUNT VOLUME NO. OF STORE Texaco Seattle *** Portland Maid -O Colver Dari Matr Zip Trip Maverick Astro Gas 105 * 5 61 / 3 0 / 2 125 / * 016 / 4 77 * 1 600 * 7 Page 1 of * Pages"
+    },
+    {
+      "sample_id": "2",
+      "split": "test",
+      "latency_ms": 0.07379999988188501,
+      "metrics": {
+        "cer": 0.08483483483483484,
+        "wer": 0.21495327102803738,
+        "word_accuracy": 0.7850467289719626,
+        "exact_match": false,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "TO: FROM: DATE MANUFACTURER: BRAND: Oct. Dec. an. Nvo. * *** 82250337 COMPETTIIVE PRODUCT INTRODUCTION PROGRESS REPORT Sam Zolot Kool Waterfall lAl Packings TYPE OF PACKINGS: D. J. Landro 2- Dec- 97 REPORTIN PERIODS: TETS MARKET GEOGRAPHY: Divisions *** an 627 wisconsin PRICE POINT: FULLS $ P/ V $ (Indicate Distributor's Cost Per *** SAES OFRCE INVOLVEMENT: *** have crew- worked distribution, and ** is reported that the may crew- work ** again Sales force ahs been busy promoting old style bacsk to clean up inventory. All POS ** being converted to *** Kolo. DISTRIBUORS ACCEPTANCE INTRO TERMS INTRO EDALS INVOLVEMENT: All accounts have te new packaging. It was not * problem obtaining new distribution. All *** appear ** have 100% distrbiution ** ne packings. CHAINS ACCEPTANCE/ MERCHNDISING: Tihs has not been * problem. New packaging is just followng on the old \"packgaing\". INDEPENDENTS ACCEPTANCE/ *** Very well received. The packs *** peing consolidated and promoted in select *** locations ** ** off ** 00 off cartons. ADVERTISING EFFECTIVENESS OF P. O. S.: The theme \"B\" Kool has replaced lal previous POS. They have effectviely replaced all old POS. New door signage, *** signs, poster mats, and clocks have the new design. \"B\" Kool also appears on billboards in llinois. PAGE 1 OF 2"
+    },
+    {
+      "sample_id": "3",
+      "split": "test",
+      "latency_ms": 0.13080000098852906,
+      "metrics": {
+        "cer": 0.09255079006772009,
+        "wer": 0.25675675675675674,
+        "word_accuracy": 0.7432432432432432,
+        "exact_match": false,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "17 cc: * From: Area: Region: 5 X Chains: Independents: 82251504 11/05/97 11: 03 813 384 0683 LORILLARD *** GREENSBOR 0002/ 00 Rtail Excel Progress Report Submission for: Distribution *** to: ** to RSM *** of Month RSM ** R ** C 10th D. ** S. R. W. Caldarella eKnt ** Mills July 31 *** 29 September 30 October 31 November ** *** 30 Acceptance/ Response: What is the ertailers response to Lorillad's Excel Merchandising pla?n This program ha been scucessful to date with chains where oru \"Flx Payment\". was not place. The chanis where were using the \"Flex Payment\" system we have not been as successful. The P. . S. requiremnts of the ** 1 Plan *** Oil Companies is diffciult ** *** Additional P. V. merchandising is being secured quikcly, Additional monies have assisted Region 17 in fighting PM Exclusies ad PM/ JRR co-existenec situations. Hardware Evaluation/ Effectiveness: oCmment on the assemlby of displays and application of shields: The displays are easily assembed and udrable. Soem *** have been raisd conceming the inaiblity to be flush with the ocunter and/ or aainst the register. A well as the ability to place tihs or the Bak Bar f the settlement goes though Pemanent Advetrising Evaluation/ Effectiveness/ Acceptane: (P- 1/ P- 5 * * 5 Plans Only: Not available at this ***"
+    },
+    {
+      "sample_id": "4",
+      "split": "test",
+      "latency_ms": 0.04410000110510737,
+      "metrics": {
+        "cer": 0.11094452773613193,
+        "wer": 0.23148148148148148,
+        "word_accuracy": 0.7685185185185185,
+        "exact_match": false,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "AUG 4 SEP1 5 JUN 23 MAY 2 REGION: DIVISION: 7 7 TO: FROM: SUBJECT: OLOGOLD.XLS 82252956 GEOGRAPHY DISTRIBUTION *** 93 K. ** Sparrow SUBMISSION DATE ** ** Lando OLD *** MENTHOL LIGHTS & ULTRA LIGHTS 100'S PROGRESS REPORT *** ** PARTIAL REGION CONTINUE WITH DIVISION (S) SCOPE) DIVISION NAM:E DIVISION NAM: DIVISION NAME: Milw. South Milw. *** DIVISON NAME DIVISION NAME: DIVISION NAME: # REP * REP # REPS DIRECT ACCOUNTS AND CHAINS HEADQUARTERED WTIHIN HTE REGION (15 + STORES) *** NO OLD *** MENTHOL LIGHTS OR ULTRA LIGHTS 100'S NAME OF ACCOUNT *** VOLUME NO. ** STORES NAME OF ACCOUNT IND/LOR VOLUME NO. OF TORES aPge1 of 3 Pages *** Dru"
+    },
+    {
+      "sample_id": "5",
+      "split": "test",
+      "latency_ms": 0.0760000002628658,
+      "metrics": {
+        "cer": 0.0935672514619883,
+        "wer": 0.20320855614973263,
+        "word_accuracy": 0.7967914438502673,
+        "exact_match": false,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "82253058 LORILLARD TO: FROM: DATE: AUG SEPT OCT NOV MANUFACTURER BRAND: X 12/ 10/ 36 09: 51 317 8450977 001/ 002 COMPETITIVE PRODUCT *** PRORGESS REPORT MRS. K. ** SPARROW ** J. Rynolds Camel Menthol Ful lFavor Box and Light Box TYPE ** PACKINGS: R. G. Ryan 12/ 10/ 96 *** PERIODS: (Forward ** *** 10th of *** following month.) TEST MARKET GEOGRAPHY All of Region 7. PRICE OPINT: FULL $ 11.89 P/ V $ (Indicate Distributor's Cost Per *** Merchandising the top tray of permanent counter displays and labling *** fixtures in the Camel section. Also placing mteal signs and temporary counter displays. SALES FORCE INVOLVEMENT: ISTRIBUTORS - ACCEPTANCE/ INTR TERMS/ *** *** Proudct ** being introduced to lal Direct: Accounts in teh Region. Acceptance is spotty at thsi time. DISTRIBUTOR INVLVEMENT: Assembly ** promotional products and shipment to retail Indianapolis Direct Acounts are reported to be receiving B1G1F product. CHAINS - ACCEPTANCE/ MERCHANDISING ALLOWANCE Chin acceptance has been ery good. INDEPNDENTS - ACCEPTANCE/ *** ALLOWANCE Acceptance is better ** high volume locations than at lower volume rtail calls. *** WK1/ FMT PAG 1 F 2"
+    },
+    {
+      "sample_id": "6",
+      "split": "test",
+      "latency_ms": 0.08590000106778461,
+      "metrics": {
+        "cer": 0.1063504208110176,
+        "wer": 0.20512820512820512,
+        "word_accuracy": 0.7948717948717948,
+        "exact_match": false,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "TO: FROM: SUBJECT: * PRE- SELL DISTRIBUTION Sheetz 8 150 183 21 ** 106 87 5 3 35 43 Kroger cvs 82253245 K. A. Sparrwo R. E. Lane SUBMISSION *** JUNE 30 AUG 11 SEP 22 NOV 10 STYLE LOW *** PROGRESS REPORT *** OF: Transition *** (Report on June 30 only) Overall pre- sell eforts were successful Retail acconuts that peviously stocked Style Full *** accepted teh introduction of th low price BIGIF 2 FOR 1: Proved ** be ** excellent tool for pulling the balance of Style Full Price packs *** *** system. *** aided the field greatly *** the transition * 7.00 CARTON COUPON/ BUYDOWN: Effective in thos retail calls that ** could not *** product out of. Those situations were limited. DIRCET ACCOUTS AND CHAINS HEADQUARTERED WITHIN THE REGION (1+ STORES) STOCKING ** LOW *** STYLE NAME ** ACCOUNT IND/ LOR VOLUME *** OF TSORES NAME ** ACCOUNT IND/ LOR VOLUME NO. OF STORES M. Maskos & Sons *** Candy and Cgiar McKeesport Candy *** Sicc Serva Thrift/ Eckerd 104/ 2 521/ 42 137/ ** IDRECT ACCOUNTS *** CHAINS HEADQUARTERED OUTISDE THE REGION (15+ STORES) STOCKING NO LOW PRICE STYLE NAME OF ACCOUNT IND/ LOR VOLUE NO OF STORES ANME OF *** IND/ LOR VOLUME NO ** STORES Rich Oil Super America W H Smtih 7- 11 318 Zon Dairy Marts Widman Drugs STYLE XLS Page 1 of 3 aPges"
+    },
+    {
+      "sample_id": "7",
+      "split": "test",
+      "latency_ms": 0.09580000005371403,
+      "metrics": {
+        "cer": 0.1069078947368421,
+        "wer": 0.2324561403508772,
+        "word_accuracy": 0.7675438596491229,
+        "exact_match": false,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "TO: RFOM: SUBJECT: \u2611 *** REGION: FUL X DIVISION: FULL PARTAIL PARTIAL DISTRIBUTION 20 15 2 44 1 3 15 20 22 ** 15 37 Chevron Exxon *** ? ? ? * ? ? ? 115 38 217 38 2 70 177 *** MAVPROGO ** A. Sparrow SUBMISSION DATE MAY 19 \u2610 JUN 30 \u2610 AUG ** \u2610 SEP 22 J. L. MGcinnis MAVERICK SPECIALS MENTHOL - PROGRESS REPORT (ONLY IF PARTIAL *** CONTINUE WIT DIVISION ()S SCOPE) DIVISION NAME: DIVISION NAME: DIVISION NAM: *** NAME: DIVISION NMAE: DIVISION AME: # REPS * REPS # REPS DIRECT ACCOUNTS AND CHAINS HEADQUARTERED WITHIN THE REGION (15+ STORES) STOCKING NO MAVERICK SPECIALS MENTHOL NAME OF ACCOUNT IND/ LOR VOLUME NO. OF STORE NAME OF ACCOUNT IN/D LOR VOLUM NO. OF STORES Sac N Pac AOC Texaco Lone Star 75/ 2 95/ 3 76/ 3 26/ 2 *** 2 06 / 62/ * 78/ 4 319/ 16 65/ * 69/ 3 80/ 4 Shopper Mart Neal One Sop Mini Mart Albertson's -Houston *** Shamrock Get Go Speedy Sto Western Beverage on * Bens DIRECT ACCOUNTS AND CHAINS HEADQUARTERED OUTSIDE THE REGION (15+ STORES) TSOCKING NO MAVERICK SPECIALS MENTHOL NAME OF *** *** LOR VOLUME NO. ** STROES NAM O ACCOUTNS IND/ LOR VOLUME NO. OF STRES Brookshire *** Eckerd Drgus S. Texs Philip's 66 Str Enetrprise Page 1 ** 3 ***"
+    },
+    {
+      "sample_id": "8",
+      "split": "test",
+      "latency_ms": 0.047399998948094435,
+      "metrics": {
+        "cer": 0.10377358490566038,
+        "wer": 0.19827586206896552,
+        "word_accuracy": 0.8017241379310345,
+        "exact_match": false,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "TO: *** 1/4/97 2 1 * 1 ITEMS zbulan 82254765 01/17/97 REQFORM 1500 500 K. ** SPARROW DATE TO NYO: S. Reindel Nasau/ 107 DIV. ANME/ NO: *** SPECIAL EVENT REQUEST FORM NAME OF EVENT: \"DATE OF EVENT: 3/18/97 H. Levinson Tradeshow SAMPLE 10'S (400 PACKS PER CASE) SAMPLES/ *** REQUIRED: NEWPORT K. S. NEWPORT 100's NEWPORT LTS K. S. NEWPORT LTS. 100 *** III K. ** # CASES KENT GL LTS ** . GL 10 KENT III 010 TRUE K. S. KENT K. S. KENT 100 QUANTITY REQUIRED BASEBLAL CAP WATER *** SHIP *** CUSTOMER SHIPPING *** 19-8 1160006 NYO ONLY: DATE *** TO PROMOTION SERVCES: PLEASE ALLOW 6 WEEKS FOR PROESSING ** YOUR REQUEST"
+    },
+    {
+      "sample_id": "9",
+      "split": "test",
+      "latency_ms": 0.03819999983534217,
+      "metrics": {
+        "cer": 0.0880503144654088,
+        "wer": 0.2,
+        "word_accuracy": 0.8,
+        "exact_match": false,
+        "layout_grounding_iou": 1.0
+      },
+      "text": "COURT: JUDGE: Asbestos CASE *** CASE NAME: LORILLARD ENTITIES: DAET FILED: *** SERVED: CASE *** PLAINTIFF COUNSEL: LORILLARD COUNSEL: TRIAL DAT:E Wartnick, Chaber, Harowitz, Smith * Tigrman Madelyn J. *** 101 California *** Suite 2200 San Frnacisco, California 94111 415 986- *** August 3, 1998 July 23, 1998 Lorillrd Tobacco Company San Francisco Superior Court - No. 996378 Wanda G. Robnson and Carroll Robisnon v Raybestos- Manhattan, et al. 82491256 94624999"
+    }
+  ]
+}

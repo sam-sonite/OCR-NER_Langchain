@@ -1,0 +1,82 @@
+{
+  "timestamp": "2026-03-27T16:08:55.690027",
+  "part_1": {
+    "understanding": {
+      "model_name": "nielsr/layoutlmv3-finetuned-funsd",
+      "train_samples": 10,
+      "test_samples": 10,
+      "labels": [
+        "header",
+        "question",
+        "answer"
+      ]
+    },
+    "training_eval": {
+      "span_accuracy": 0.6763996529786003,
+      "label_consistency": 0.46396656429394706,
+      "labeled_precision": 0.42058391698460573,
+      "labeled_recall": 0.44674447769231823,
+      "labeled_f1": 0.43270723032588154,
+      "unlabeled_precision": 0.6363622042632071,
+      "unlabeled_recall": 0.6763996529786003,
+      "unlabeled_f1": 0.6549465360091069
+    },
+    "boundary_analysis": {
+      "boundary_errors": 9,
+      "missed_entities": 569,
+      "spurious_entities": 0,
+      "label_confusion": {
+        "question->answer": 6,
+        "header->answer": 1
+      }
+    },
+    "robustness": {
+      "noisy_labeled_f1": 0.39543897387717447,
+      "noisy_unlabeled_f1": 0.6286124322978341,
+      "adversarial_labeled_f1": 0.398272879290785,
+      "adversarial_unlabeled_f1": 0.6381282656861949
+    },
+    "downstream": {
+      "clean_document_success_rate": 0.5,
+      "clean_automation_success_rate": 0.7,
+      "noisy_document_success_rate": 0.6,
+      "noisy_automation_success_rate": 0.7
+    },
+    "latency": {
+      "avg_latency_ms": 713.8632300002428,
+      "throughput_docs_per_sec": 1.4008285592741063
+    }
+  },
+  "part_2": {
+    "understanding": {
+      "model_name": "funsd_reference_ocr",
+      "test_samples": 10,
+      "benchmark_note": "FUNSD extracted OCR words are used as the clean OCR benchmark reference."
+    },
+    "training_eval": {
+      "avg_cer": 0.0,
+      "avg_wer": 0.0,
+      "avg_word_accuracy": 1.0,
+      "exact_match_rate": 1.0,
+      "avg_layout_grounding_iou": 1.0,
+      "avg_latency_ms": 0.007199999527074397,
+      "throughput_docs_per_sec": 138888.89801168276
+    },
+    "sensitivity": {
+      "mild_noise_cer": 0.06018502968037977,
+      "mild_noise_wer": 0.127637174398053,
+      "adversarial_noise_cer": 0.09683744501751368,
+      "adversarial_noise_wer": 0.21731026241361512
+    },
+    "latency": {
+      "avg_latency_ms": 0.007199999527074397,
+      "throughput_docs_per_sec": 138888.89801168276
+    },
+    "automation": {
+      "ocr_exact_match_rate": 1.0,
+      "ocr_word_accuracy": 1.0,
+      "end_to_end_clean_success": 0.7,
+      "end_to_end_noisy_success": 0.7
+    }
+  }
+}
